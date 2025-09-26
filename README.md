@@ -6,4 +6,9 @@ El objetivo de este proyecto es de implementa el mapa de Jaén que fue usado en 
 
 ## Idea#1
 Imagen:
-![Diseño Mapa](https://github.com/user-attachments/assets/dee98101-9d26-422a-b537-3a1af48bafb5)
+
+<p align="center">
+  
+<img src="imagenes/Diseño_Mapa.jpg" width="800" height="700" />
+
+</p>
