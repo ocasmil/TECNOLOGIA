@@ -14,6 +14,7 @@ La idea que propongo es situar el mapa, utiizando las mesas que hay bajo las esc
 
 Diseño en tikercad:
 
+<img src="imagenes/mapa-tinkercad.png" width="600" height="700" />
  
 ## Materiales
 Para poder llevar a cabo este proyecto necesitamos una serie de materiales que podemos _reciclar del centro o de las casas del alumnado_ o bien _comprado los materiales_.
