@@ -11,16 +11,14 @@ La idea que propongo es situar el mapa, utiizando las mesas que hay bajo las esc
 <img src="imagenes/Diseño_Mapa.jpg" width="600" height="700" />
 
 </p>
+
+Diseño en tikercad:
+
  
 ## Materiales
 Para poder llevar a cabo este proyecto necesitamos una serie de materiales que podemos _reciclar del centro o de las casas del alumnado_ o bien _comprado los materiales_.
 Los materiales necesarios serían:
-+ *2 Mesas de madera* (o tablones)
-+
-+
-+
-+
-+
-+
-+
-+
++ **2 Mesas de madera (o tablones)** que serviran para hacer la estructura de la vitrina (rojo,azul)
++ Para el cuadro informativo (amarillo) podria servir otra tabla y pegar una pegatina con la informacion o directamente poner la pegatina.
++ **Metracrilato** (gris)
++ ***Clavos,soportes, varillas***, cualquier material que pueda sugetar el mapa y mantenerlo firme y que pueda ser extraido para su mantenimiento.
