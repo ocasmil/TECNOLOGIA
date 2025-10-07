@@ -47,10 +47,19 @@ El invernadero presenta bastantes daños como son agujeros en el agrofilm (plast
 
 **-FOTOS**
 
-<img src="Invernadero#1.jpg" width="500" height="400" />      <img src="Invernadero#2.jpg" width="500" height="400" />
+<img src="imagenes/Invernadero#1.jpg" width="500" height="400" />      <img src="imagenes/Invernadero#2.jpg" width="500" height="400" />
 
-<img src="Invernadero#3.jpg" width="500" height="400" />      <img src="Invernadero#4.jpg" width="500" height="400" />
+<img src="imagenes/Invernadero#3.jpg" width="500" height="400" />      <img src="imagenes/Invernadero#4.jpg" width="500" height="400" />
 
-<img src="Invernadero#5.jpg" width="500" height="400" />      <img src="Invernadero#6.jpg" width="500" height="400" />
+<img src="imagenes/Invernadero#5.jpg" width="500" height="400" />      <img src="imagenes/Invernadero#6.jpg" width="500" height="400" />
 
-<img src="Invernadero#7.jpg" width="500" height="400" />      <img src="Invernadero#8.jpg" width="500" height="400" />
+<img src="imagenes/Invernadero#7.jpg" width="500" height="400" />      <img src="imagenes/Invernadero#8.jpg" width="500" height="400" />
+
+## PROPUESTA
+Propongo la reparacion 
+
+
+
+
+
+
