@@ -46,4 +46,11 @@ Nuesto objetivo para este proyecto es la de rescatar la zona del invernadero y e
 El invernadero presenta bastantes daños como son agujeros en el agrofilm (plastico del invernadero) ,un boquete en el suelo, estructuras caidas y oxido, pero no tan solo daños materiales, tambien nos enfrentamos a una tierra seca donde si queremos plantar algo vamos a necesitar de mucha agua, papel de cocina, estiercol y un milagro, a menos que cambiemos la tierra.
 
 **-FOTOS**
-<img src="imagenes/mapa-tinkercad-perfil.png" width="500" height="400" />      <img src="imagenes/mapa-tinkercad-planta.png" width="500" height="400" />
+
+<img src="Invernadero#1.jpg" width="500" height="400" />      <img src="Invernadero#2.jpg" width="500" height="400" />
+
+<img src="Invernadero#3.jpg" width="500" height="400" />      <img src="Invernadero#4.jpg" width="500" height="400" />
+
+<img src="Invernadero#5.jpg" width="500" height="400" />      <img src="Invernadero#6.jpg" width="500" height="400" />
+
+<img src="Invernadero#7.jpg" width="500" height="400" />      <img src="Invernadero#8.jpg" width="500" height="400" />
