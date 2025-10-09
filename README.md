@@ -56,7 +56,12 @@ El invernadero presenta bastantes daños como son agujeros en el agrofilm (plast
 <img src="imagenes/Invernadero#7.jpg" width="500" height="400" />      <img src="imagenes/Invernadero#8.jpg" width="500" height="400" />
 
 ## PROPUESTA
-Propongo para la reparación del invernadero primero, arreglar los agujeros en el suelo y el agrofilm y cambiar el interior poniendo unas gradas para poder sugetar las plantas y un casillero para guardar todo del jardin.
+Propongo para la reparación del invernadero primero, arreglar los agujeros en el suelo y el agrofilm y cambiar el interior poniendo unas gradas para poder sugetar las plantas y un casillero para guardar todo del jardin como lo son el rastrillo, la azada, los guantes, la tiella, etc.
+
+## Materiales
++Tablones para el suelo, tipo encorchado (
++Agrofilm 
++
 
 
 
