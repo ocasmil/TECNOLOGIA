@@ -65,6 +65,9 @@ Propongo para la reparación del invernadero primero, arreglar los agujeros en e
 + Agrofilm 
 +
 
+## Planificación
+<img src="imagenes/PlanificaciónInvernadero.PNG" width="600" height="700" />
+
 
 
 
