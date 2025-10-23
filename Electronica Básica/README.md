@@ -6,65 +6,71 @@ En este apartado vamos a ver componentes electronicos que hemos visto en clase, 
 
 imagen del componentes
 
-_¿Como funcionan?_ //simbol electrico
-linea de colores
-_¿Para que sirve?_
+**_¿Como funcionan?_** //simbol electrico
+Las resistencias fijas son resistencias cuyo valor **no podemos modificar a voluntad**. Su valor se mide en ohmios (simbolo omega) con una tabla de colores que asigna en numero de ohmios que actua la resistencia y su variación en %.
 
-_¿Como lo usamos en clase?_
+
+
+**_¿Para que sirve?_**
+
+**_¿Como lo usamos en clase?_**
 En clase las resistencias que usamos presentan en a ultima barra un color dorado, presentando un 5% de variación en la resistencia
 
 ### Resitencias variables
 
 imagen del componentes
 
-_¿Como funcionan?_ //simbol electrico
+**_¿Como funcionan?_** //simbol electrico
 
-_¿Para que sirve?_
+**_¿Para que sirve?_**
 
-_¿Como lo usamos en clase?_
+**_¿Como lo usamos en clase?_**
 En clase las resistencias que usamos presentan en a ultima barra un color dorado, presentando un 5% de ver
 
 ## Condensadores
 
 imagen del componentes
 
-_¿Como funcionan?_ //simbol electrico
+**_¿Como funcionan?_** //simbol electrico
 
-_¿Para que sirve?_
+**_¿Para que sirve?_**
 
-_¿Como lo usamos en clase?_
+**_¿Como lo usamos en clase?_**
 
 
 ## Diodos
 
 imagen del componentes
 
-_¿Como funcionan?_ //simbol electrico
+**_¿Como funcionan?_** //simbol electrico
 
-_¿Para que sirve?_
+**_¿Para que sirve?_**
 
-_¿Como lo usamos en clase?_
+**_¿Como lo usamos en clase?_**
 
 
 ## LEDs
 
 imagen del componentes
 
-_¿Como funcionan?_ //simbol electrico
+**_¿Como funcionan?_** //simbol electrico
 
-_¿Para que sirve?_
+**_¿Para que sirve?_**
 
-_¿Como lo usamos en clase?_
+**_¿Como lo usamos en clase?_**
 
 
 ## Transistores
 
 imagen del componentes
 
-_¿Como funcionan?_ //simbol electrico
+**_¿Como funcionan?_** //simbol electrico
 
-_¿Para que sirve?_
+**_¿Para que sirve?_**
 
-_¿Como lo usamos en clase?_
+**_¿Como lo usamos en clase?_**
 
 
+
+
+.
