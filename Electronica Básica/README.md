@@ -1,10 +1,12 @@
 # Electrónica Básica
-En este apartado vamos a ver componentes electronicos que hemos visto en clase, que pese a tener nombres raros, son más comunes de lo que creemos y rondon por nuestra vida diaria cumpliendo sus funciones, falicitando nuestras vidas aun que sea un poco.
+En este apartado vamos a ver componentes electronicos que hemos visto en clase, que pese a tener nombres raros, son más comunes de lo que creemos y rondon por nuestra vida diaria cumpliendo sus funciones, falicitando nuestras vidas aun que sea solo un poco.
 
 ## Resitencias fijas y variables
 ### Resitencias fijas
 
-imagen del componentes
+
+<img src="Electronica Básica/Diseño_Mapa.jpg" width="600" height="700" />  <img src="imagenes/Diseño_Mapa.jpg" width="600" height="700" />
+
 
 **_¿Como funcionan?_** //simbol electrico
 Las resistencias fijas son resistencias cuyo valor **no podemos modificar a voluntad**. Su valor se mide en ohmios (simbolo omega) con una tabla de colores que asigna en numero de ohmios que actua la resistencia y su variación en %.
