@@ -8,7 +8,8 @@ En este apartado vamos a ver componentes electronicos que hemos visto en clase, 
 
 
 
-**_¿Como funcionan?_** //simbol electrico
+**_¿Como funcionan?_** 
+
 Las resistencias fijas son resistencias cuyo valor **no podemos modificar a voluntad**. Su valor se mide en ohmios (simbolo omega) con una tabla de colores que asigna en numero de ohmios que actua la resistencia y su variación en %.
 
 <p align="center"> 
