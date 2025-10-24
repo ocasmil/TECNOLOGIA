@@ -5,7 +5,7 @@ En este apartado vamos a ver componentes electronicos que hemos visto en clase, 
 ### Resitencias fijas
 
 
-
+ <img src="Resistencia.webp" width="500" height="600" /> <img src="Resistencia.webp" width="400" height="600" /> 
 
 
 **_¿Como funcionan?_** 
