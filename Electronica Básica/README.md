@@ -79,11 +79,19 @@ imagen del componentes
 
 # CIRCUITOS DE FUNCIONAMIENTO
 ## Circuito 1
+ <img src="Circuito-1.png" width="500" height="600" />
 
+ componentes:
+ 
 ## Circuito 2
+ <img src="Circuito-2.png" width="500" height="600" />
+
+compnentes:
 
 ## Circuito 3
+ <img src="Circuito-3.png" width="500" height="600" />
 
+ componentes:
 
 
 
