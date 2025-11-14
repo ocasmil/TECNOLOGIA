@@ -16,7 +16,7 @@ Usa el sistema binario ( conjunto de ceros y unos), no le afecta el ruido electr
   
 Debido a que la electronica digital consiste en ceros y unos el ruido electrico poco puede interferir en este sistema biposicional, pero son quienes causan más ruido eléctrico haciendo que algunas de las 
 
-</p aling centre>
+<p align="center"> 
 
  <img src="ruidoelectrico.png" width="600" height="600" />
 </p>
