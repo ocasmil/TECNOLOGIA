@@ -2,8 +2,8 @@
 En este apartado vamos a ver componentes electronicos que hemos visto en clase, que pese a tener nombres raros, son más comunes de lo que creemos y rondon por nuestra vida diaria cumpliendo sus funciones, falicitando nuestras vidas aun que sea solo un poco.
 # Electronica Analógica
 
-## Resitencias fijas y variables
-### Resitencias fijas
+## 1.Resitencias fijas y variables
+### 1.1 Resitencias fijas
 
 <p align="center"> 
  
@@ -36,7 +36,7 @@ Las resitencias dificultan el paso de la corriente, consiguiendo, así, variacio
 
 En clase las resistencias que usamos presentan en a ultima barra un color dorado, presentando un 5% de variación en la resistencia
 
-### Resitencias variables
+### 1.2Resitencias variables
 
 imagen del componentes
 
@@ -47,7 +47,7 @@ imagen del componentes
 **_¿Como lo usamos en clase?_**
 En clase las resistencias que usamos presentan en a ultima barra un color dorado, presentando un 5% de ver
 
-## Condensadores
+## 2.Condensadores
 
 imagen del componentes
 
@@ -58,7 +58,7 @@ imagen del componentes
 **_¿Como lo usamos en clase?_**
 
 
-## Diodos
+## 3.Diodos
 
 imagen del componentes
 
@@ -69,7 +69,7 @@ imagen del componentes
 **_¿Como lo usamos en clase?_**
 
 
-## LEDs
+## 4.LEDs
 
 imagen del componentes
 
@@ -80,7 +80,7 @@ imagen del componentes
 **_¿Como lo usamos en clase?_**
 
 
-## Transistores
+## 5.Transistores
 
 imagen del componentes
 
