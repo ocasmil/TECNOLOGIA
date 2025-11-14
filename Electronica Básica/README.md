@@ -1,6 +1,6 @@
 # Electrónica Básica
 En este apartado vamos a ver componentes electronicos que hemos visto en clase, que pese a tener nombres raros, son más comunes de lo que creemos y rondon por nuestra vida diaria cumpliendo sus funciones, falicitando nuestras vidas aun que sea solo un poco.
-# Electronica Analógica
+# Electrónica Analógica
 
 ## 1.Resitencias fijas y variables
 ### 1.1 Resitencias fijas
@@ -106,6 +106,6 @@ compnentes:
 
  componentes:
 
+# Electrónica Digital
 
 
-.
