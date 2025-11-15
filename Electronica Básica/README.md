@@ -107,8 +107,11 @@ Existen varios tipos de resistencias variables dependiendo de como pueden ser re
 ## 4.LEDs
 
 ***¿Para qué sirve?***
+
 ***Funcionamiento interno***
+
 ***Algunas aplicaciones de uso***
+
 ***Variedades***
 
 ## 5.Transistores
@@ -135,8 +138,14 @@ compnentes:
  componentes:
 
 # Electrónica Digital
+La electromica digital se basa en el empleo de componentes que solo admiten *dos estados*, el **0** (apagado/abierto) y el **1** (encendido/cerrado).
+
 ## PUERTAS LÓGICAS
+Las puertas logicas
+
 ### NOT
+sim fun tbl verd
+
 
 ### OR
 
