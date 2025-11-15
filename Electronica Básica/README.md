@@ -117,8 +117,11 @@ Existen varios tipos de resistencias variables dependiendo de como pueden ser re
 ## 5.Transistores
 
 ***¿Para qué sirve?***
+
 ***Funcionamiento interno***
+
 ***Algunas aplicaciones de uso***
+
 ***Variedades***
 
 # CIRCUITOS DE FUNCIONAMIENTO
@@ -144,12 +147,12 @@ La electromica digital se basa en el empleo de componentes que solo admiten *dos
 Las puertas logicas
 
 ### -NOT
-sim fun tbl verd
 <img src="electronic-simbolo-puerta-not.png" width="500" height="600" />
-
++***Funciones***
++***Tabla de Verdad***
 ### -OR
 <img src="electronic-simbolo-puerta-or.png" width="500" height="600" />
-
++******
 
 ### AND
 <img src="electronic-simbolo-puerta-and.png" width="500" height="600" />
