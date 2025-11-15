@@ -148,8 +148,9 @@ Las puertas logicas
 
 ### -NOT
 <img src="electronic-simbolo-puerta-not.png" width="500" height="600" />
-+***Funciones***
-+***Tabla de Verdad***
++ Funciones
+
++ Tabla de Verdad
 ### -OR
 <img src="electronic-simbolo-puerta-or.png" width="500" height="600" />
 +******
