@@ -143,20 +143,28 @@ La electromica digital se basa en el empleo de componentes que solo admiten *dos
 ## PUERTAS LÓGICAS
 Las puertas logicas
 
-### NOT
+### -NOT
 sim fun tbl verd
+<img src="electronic-simbolo-puerta-not.png" width="500" height="600" />
 
+### -OR
+<img src="electronic-simbolo-puerta-or.png" width="500" height="600" />
 
-### OR
 
 ### AND
+<img src="electronic-simbolo-puerta-and.png" width="500" height="600" />
+
 
 ### XOR
+<img src="electronic-simbolo-puerta-xor.png" width="500" height="600" />
 
-### NORD
+
+### NOR
+<img src="electronic-simbolo-puerta-nor.png" width="500" height="600" />
+
 
 ### NAND
-
+<img src="electronic-simbolo-puerta-nand.png" width="500" height="600" />
 
 
 
