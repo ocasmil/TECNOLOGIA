@@ -36,11 +36,13 @@ Las resitencias dificultan el paso de la corriente, consiguiendo, así, variacio
 
 En clase las resistencias que usamos presentan en a ultima barra un color dorado, presentando un 5% de variación en la resistencia
 
-### 1.2Resitencias variables
+### 1.2 Resitencias variables
 
 imagen del componentes
 
 **_¿Como funcionan?_** //simbol electrico
+
+
 
 **_¿Para que sirve?_**
 
@@ -107,5 +109,6 @@ compnentes:
  componentes:
 
 # Electrónica Digital
+
 
 
