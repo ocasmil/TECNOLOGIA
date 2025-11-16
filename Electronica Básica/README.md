@@ -46,12 +46,16 @@ Las resistencias fijas al no poder cambiar su valor a voluntad, estan indicadas 
  + Las dos primeras bandas son los son los numeros que equivalen su color (mirar la tabla de abajo, "1RA Banda/ 2DA Banda")
  + Ahora añadiremos tantos ceros como indica el color de la tercera banda, es decir si es naranja (naranja=3) pondemos 3 ceros-> "000", o multiplicamos el numero por 1000 que es lo mismo.
  + Por último, la franja del final indica el margen de error o tolerancia del valor de la resistencia, es decir que depende se su color (plata 10%, dorada 5% o rojo 2% ) está indicando cuanto puede variar el valor de la resistencia, por ejemplo, si el valor de nuestra resistencia es de 110 ohmios y tenemos una franga es dorada, el 5% de 110 es 5,5 ohmios asi que su valor varía entre 104,5 ohmios y 115,5 ohmios.
+
 <p align="center"> 
 <img src="Resistencia.webp" width="500" height="600" /> 
 
 </p>
 
 ### 1.2 Resitencias variables
+<p align="center"> 
+<img width="686" height="326" alt="image" src="https://github.com/user-attachments/assets/bb64333d-6cc0-49c0-a25b-326b7b5fe088" />
+</p>
 
 ***¿Para qué sirve?***
 
@@ -80,48 +84,166 @@ Existen varios tipos de resistencias variables dependiendo de como pueden ser re
 | **Formas de ser regulados**  | **Tipo de resistencia variable** |
 | :-------------: | :-------------: |
 | Manualmente  | Potenciómetro |
-| Cantidad de luz del entorno   | Fotoresistencia (LDR) |
-| Cambios en la temperatura | NTC (disminuye si se eleva la temp.) o PTC (aumenta si se incrementa la temperatura)  |
+| Cantidad de luz del entorno   | Fotoresistencia (*Light-Depended Resistor*) |
+| Cambios en la temperatura | NTC/*Negative Temperature Coefficient* (disminuye si se eleva la temp.) o PTC/*Positive Temperature Coefficient* (aumenta si se incrementa la temperatura)  |
 
 ## 2.Condensadores
+<p align="center"> 
+<img width="488" height="278" alt="image" src="https://github.com/user-attachments/assets/7b91acf2-dcc5-4b39-b0d2-3f951ee24895" />
 
  ***¿Para qué sirve?***
+ </p>
+Los condensadores tienen una capacidad que es la cantidad de carga que es capaz de almacenar por cada voltio en sus extremos y se miden en **faradios** (F).
+Sirven para almacenar la carga electrica y liberarla posteriormente. Cuanto mayor sea la capacidad del condersador, más carga adquidirá y más tiempo tardará en descargarse.
+
+<p align="center"> 
+<img width="562" height="206" alt="CondensadorFuncionamiento" src="https://github.com/user-attachments/assets/aa3316e6-b75c-42c8-89eb-413d409399ef" />
 
 
- 
+</p>
+
 ***Funcionamiento interno***
 
+Adentro del condensador ocurren estos procesos en secuencia:
++ **Info**
+
+El condensador tiene dos placas conductoras separadas por un material aislante llamado dieléctrico.
+
++ **Aplicación de voltaje**
+
+Al conectarlo a una fuente:
+Una placa acumula carga positiva.
+La otra acumula carga negativa.
+
+El dieléctrico impide que entren en contacto.
+
++ **Formación del campo eléctrico**
+
+Las cargas opuestas generan un campo eléctrico entre las placas.
+Ese campo es donde se almacena la energía.
+
++ **Carga y descarga**
+
+Si hay voltaje → el condensador se carga.
+Si se conecta un circuito entre las placas → se descarga, liberando la energía.
+
+****!- Papel del dieléctrico -!****
+
+El dieléctrico tiene 3 funciones igual de importantes que son:
+
+-Aumenta la capacidad de almacenamiento.
+
+-Evita cortocircuitos.
+
+-Permite condensadores más compactos.
 
 
 ***Algunas aplicaciones de uso***
 
+Se pueden emplear los condensadores para: almacenar carga (*flashes* de las cámaras), como temporizadores de circuitos, para filtrar señales indeseadas, en cagadores de baterías, receptores de radio y televisión, pantallas táctiles,...
 
+<p align="center"> 
+<img width="743" height="415" alt="AplicacionesCNDSDRS" src="https://github.com/user-attachments/assets/5425c5dc-4500-4a57-8eb9-a8cc9dd7ec2c" />
+
+</p>
 
 ***Variedades***
 
+Los condensadores se clasifican en función del material empreado en su fabricación y de que tengan o no polaridad.
 
+<p align="center">
+<img width="568" height="248" alt="image" src="https://github.com/user-attachments/assets/492a33cc-b839-4151-b863-43b3a0cbea9c" />
+
+</p>
+Los condensadores **no polacizados** se fabrican de papel, con material cerámico o de poliéster.
+Mientras que los condensadores **polarizados o electrolíticos** pueden ser de aluminio (Al) o de tantalio (Ta).
 
 ## 3.Diodos
+<p align="center"> 
+<img width="512" height="288" alt="image" src="https://github.com/user-attachments/assets/f9c9884d-0a4d-47f1-acd4-08d340146955" />
+</p>
 
 ***¿Para qué sirve?***
+
+Los diodos se usan en la electrónica analógica para permitir que en un circuito permita el paso de la corriente por un sentido pero no por el otro, imagina la puerta de tu casa, tú desde adentro puedes abrir la puerta y pasar por ella, pero desde afuera no puedes pasar por la puerta. Pues la puerta es el diodo y tu eres uno de los muchos electrones que pasan por el cicuito
+
 ***Funcionamiento interno***
+
+Adentro de los diodos leds se encuentra un material semiconductor llamado "unión PN" con una barrera interna, permitiendo asi que:
+
++ En polarización directa, la barrera baja y deja pasar corriente.
+  
++ En polarización inversa, la barrera sube y bloquea la corriente.
+
+<p align="center">
+<img width="742" height="418" alt="image" src="https://github.com/user-attachments/assets/460df7b5-c288-48f9-90bf-0ee83570b281" />
+
+</p>
+
 ***Algunas aplicaciones de uso***
+
+Este comportamiento del diodo permite emplearlos para **dirigir la corriente eléctrica**, perfecto para rectificores y en elementos de protección de circuitos.
+
 ***Variedades***
+
+Existen una variación de los diodos que son los **diodos LED** (que veremos en el siguiente apartado) y los **diodos Zener**, que permiten el paso de la corriente también en polarización inversa con una caída de tensión fija según sus caracteristicas de fabricación.
+
+<p align="center"> 
+<img width="422" height="258" alt="image" src="https://github.com/user-attachments/assets/0115413c-abe9-4311-9104-356c50c72af5" />
+ 
+</p>
 
 ## 4.LEDs
 
+<p align="center">
+<img width="457" height="121" alt="image" src="https://github.com/user-attachments/assets/e41a6714-caa6-4fd6-a72c-369f022b7fc7" />
+ 
+</p>
+
 ***¿Para qué sirve?***
+
+El diodo LED (*Light-Emitting Diode*) es un tipo especial de diodo qie es capaz de emitir luz cuando es atravesado por la corriente eléctrica. Debido a su bajo consumo y fácil fabricación se emplea en multitud de pilotos indicadores.
 
 ***Funcionamiento interno***
 
+Los diodos LED tienen un voltaje y una intensidad de corriente de funcionamiento característcos según su color; si se sobrepasa dicha intensidad, se queman. Para evitar esto, se les conecta en serie una resistencia limitadora (220 ohmios). El valor de la resistencia se calcula según la ley de Ohm, restando al voltaje de la fuente el necesario para el LED y dividiendo el resultado entre la intensidad requerida:
+<p align="center"> 
+<img width="174" height="30" alt="image" src="https://github.com/user-attachments/assets/dc7e9661-fb8e-4f87-b295-ac4f3c645dd9" />
+
+Con esta tabla podemos conocer el valor del *V* (led)
+
+| **Color**  | **Tensión umbral** |
+| :---: | :---: |
+| Rojo | 1,6 V |
+| Rojo de alta luminosidad | 1,9 V |
+| Amarillo | 1,7 V a 2 V | 
+| Naranja | 2,4 V |
+| Verde | 2,4 V |
+| Blanco brillante | 3,4 V |
+| Azul claro | 3,4 V |
+| Azul | 4,6 V |
+
+</p>
+
 ***Algunas aplicaciones de uso***
 
+Desde el descubrimiento del LED azul ahora podemos crear la luz blanca (al unir los colores azul, rojo y verde) siendo aplicada en la fabricación de pantallas domésticas de bajo consumo. Tambien encontramos luces leds en las luces traseras de los coches.
+<p align="center"> 
+<img width="736" height="245" alt="image" src="https://github.com/user-attachments/assets/747410ba-295e-463f-b8ab-03a7771a5f17" />
+</p>
+
 ***Variedades***
+Los diodos LED pueden variar de colores, pero tambien de tamaños ( desde grandes como el tamaño de un pulgar o pequeños como la punta del boli) y formas ( más cuadradas, más circulares, etc)
+
+<p align="center"> 
+<img width="724" height="144" alt="image" src="https://github.com/user-attachments/assets/a877ec12-b799-4f9d-b391-a5bceb87d23c" />
+</p>
 
 ## 5.Transistores
 
 ***¿Para qué sirve?***
 
+El **transistor** es el elemento principal en los circuitos electrónicos
 ***Funcionamiento interno***
 
 ***Algunas aplicaciones de uso***
@@ -242,5 +364,10 @@ Al igual que la puerta "NOR", la puerta "NAND" es una inversión de la puerta "A
 | 1 | 1 | 1 |
 
 ## DISEÑO DE CIRCUITOS 
-El diseño de los circuitos requiere encontrar las puertas adecuadas, simplificand al máximo la expresión logica, se recurre al ***álgebra de Boole***
+El diseño de los circuitos requiere encontrar las puertas adecuadas, simplificand al máximo la expresión logica, se recurre al ***álgebra de Boole***.En ocasiones la correcta enunciación del problema permite decucir directamente la expresión.
+Por ejemplo en el IES Az-zait se pretende que la calefacción se encienda en cierta sala al abrir la puerta siempre que sea de día o no haya nadie en la conserjería.
+Ahora vamos a definir que sensores van a enviar señales al sistema y qué circunstrancias se van a considerar positivas y cuáles negativas.Así:
 
++ ***a***: el estado de la puerta lo determinará un sensor de contacto que se cierra al abrir la puerta: puerta abierta=1, puerta cerrada=0
++ ***b***: La luz será detectada por un sensor de luminosidad que mandará señales positivas cuando sea de día: día=1, noche=0
++  ***c***: L a presencia de alguien en la conserjería la indicará un sensor de movimiento: presencia=1, ausencia=0
