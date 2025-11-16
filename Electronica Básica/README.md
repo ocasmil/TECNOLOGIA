@@ -93,6 +93,7 @@ Existen varios tipos de resistencias variables dependiendo de como pueden ser re
 
  ***¿Para qué sirve?***
  </p>
+ 
 Los condensadores tienen una capacidad que es la cantidad de carga que es capaz de almacenar por cada voltio en sus extremos y se miden en **faradios** (F).
 Sirven para almacenar la carga electrica y liberarla posteriormente. Cuanto mayor sea la capacidad del condersador, más carga adquidirá y más tiempo tardará en descargarse.
 
@@ -124,8 +125,9 @@ Ese campo es donde se almacena la energía.
 
 + **Carga y descarga**
 
-Si hay voltaje → el condensador se carga.
-Si se conecta un circuito entre las placas → se descarga, liberando la energía.
+Si hay voltaje el condensador se carga.
+
+Si se conecta un circuito entre las placas se descarga, liberando la energía.
 
 ****!- Papel del dieléctrico -!****
 
@@ -155,6 +157,7 @@ Los condensadores se clasifican en función del material empreado en su fabricac
 <img width="568" height="248" alt="image" src="https://github.com/user-attachments/assets/492a33cc-b839-4151-b863-43b3a0cbea9c" />
 
 </p>
+
 Los condensadores **no polacizados** se fabrican de papel, con material cerámico o de poliéster.
 Mientras que los condensadores **polarizados o electrolíticos** pueden ser de aluminio (Al) o de tantalio (Ta).
 
