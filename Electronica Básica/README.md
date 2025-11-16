@@ -54,11 +54,15 @@ Las resistencias fijas al no poder cambiar su valor a voluntad, estan indicadas 
 ### 1.2 Resitencias variables
 
 ***¿Para qué sirve?***
+
 Las resistencias variables o potenciometros, a difefencia de las resistencias fijas, estos **pueden cambiar su valor a voluntad** de forma manual o dependiendo del exterior. Estan presentes normalmente en cicuitos donde tengan función de "reguladores" como son de una luz que emite una bombilla, el volumen que emite un altavoz, o de un motor para controlar su velocidad, etc.
 
 ***Funcionamiento interno***
 
+<p align="center"> 
+ <img src="FIRV.png" width="700" height="600" />
 
+</p>
 
 ***Algunas aplicaciones de uso***
 | **Resistencias variables**  | **Aplicaciones** |
@@ -237,5 +241,6 @@ Al igual que la puerta "NOR", la puerta "NAND" es una inversión de la puerta "A
 | 1 | 0 | 1 |
 | 1 | 1 | 1 |
 
-
+## DISEÑO DE CIRCUITOS 
+El diseño de los circuitos requiere encontrar las puertas adecuadas, simplificand al máximo la expresión logica, se recurre al ***álgebra de Boole***
 
