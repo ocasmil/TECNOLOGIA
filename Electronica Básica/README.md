@@ -250,12 +250,20 @@ El **transistor** es el elemento principal en los circuitos electrónicos
 
 ***Funcionamiento interno***
 
+
+
 ***Algunas aplicaciones de uso***
+
+
 
 ***Variedades***
 
 
+
 ## 6.Relés
+| <img width="1338" height="500" alt="image" src="https://github.com/user-attachments/assets/c15197a9-4be1-405d-951f-5c0309f8037e" /> | <img width="130" height="130" alt="image" src="https://github.com/user-attachments/assets/2b0d994a-1d5f-430f-831a-37ef3a2d275b" />|
+
+
 ***¿Para qué sirve?***
 
  
@@ -276,7 +284,14 @@ El **transistor** es el elemento principal en los circuitos electrónicos
 ## Circuito 1
  <img src="Circuito-1.png" width="500" height="600" />
 
- componentes:
+Componentes:
++ Pila de 4,5 voltios ( 3 de 1,5V )
++ LED
++ Interruptor
++ 2 resistencias, de LED a transistor 200 ohmios y de interruptor/condensador a transistor 2K ohmios
+
+
+Funcionamiento:
  
 ## Circuito 2
  <img src="Circuito-2.png" width="500" height="600" />
@@ -409,9 +424,18 @@ El siguiente paso será crear una tabla de verdad con lo anterior mencionado
 
 seleccionaremos aquellas combinaciones que presenten en la salida el valor "1" y las traduciremos al lenguaje algebraico de Boole indicando las combinaciones de tal manera que sea **abc** siendo **"a"** cuando a=1 y **"-a"** (a negada) cuando a=0
 En estre caso seria:
-a-bc + ab-c + abc
+
+***a-bc + ab-c + abc***
 
 Ahora simplificaremos la ecuacción, haremos parejas con las combinaciones que tengan similitudes. Usaremos *"abc"* y *"ab-c"* se asemejan en que ambos tienen la entrada **"a"** y **"b"** equivalentes a 1 (a si que las dejaremos iguales), pero tenemos la **"c"** que no son iguales ya que en una c=1 y en la otra es c=0, lo que haremos será meterlo entre un parentesis y sumarlas.
 
-a-bc + ab(-c+c)
+***a-bc + ab(-c+c)***
 
+## Montaje de circuitos
+
+### Con puerta lógica NOR con pulsadores y LED
+
+### Con 3 puertas lógicas (NOT-OR into AND)
+(entradas y salidas de las puertas logicas explicadas mete foto si necesitas)
+montaje sobre ldr
+montaje sustetuyend led con rele
