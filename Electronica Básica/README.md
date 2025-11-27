@@ -416,20 +416,37 @@ El siguiente paso será crear una tabla de verdad con lo anterior mencionado
 | 0 | 0 | 0 | 0 |
 | 0 | 0 | 1 | 0 |
 | 0 | 1 | 0 | 0 |
-| 1 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 0 |
 | 0 | 1 | 1 | 0 |
-| *1* | *0* | *1* | *1* |
+| *1* | *0* | *0* | *1* |
 | *1* | *1* | *0* | *1* |
 | *1* | *1* | *1* | *1* |
 
-seleccionaremos aquellas combinaciones que presenten en la salida el valor "1" y las traduciremos al lenguaje algebraico de Boole indicando las combinaciones de tal manera que sea **abc** siendo **"a"** cuando a=1 y **"-a"** (a negada) cuando a=0
++ Seleccionaremos aquellas combinaciones que presenten en la salida el valor "1" y las traduciremos al lenguaje algebraico de Boole indicando las combinaciones de tal manera que sea **abc** siendo **"a"** cuando a=1 y **"-a"** (a negada) cuando a=0
 En estre caso seria:
 
-***a-bc + ab-c + abc***
+***a-b-c + ab-c + abc***
 
-Ahora simplificaremos la ecuacción, haremos parejas con las combinaciones que tengan similitudes. Usaremos *"abc"* y *"ab-c"* se asemejan en que ambos tienen la entrada **"a"** y **"b"** equivalentes a 1 (a si que las dejaremos iguales), pero tenemos la **"c"** que no son iguales ya que en una c=1 y en la otra es c=0, lo que haremos será meterlo entre un parentesis y sumarlas.
++ Ahora simplificaremos la ecuacción, haremos parejas con las combinaciones que tengan similitudes. Usaremos *"abc"* y *"ab-c"* se asemejan en que ambos tienen la entrada **"a"** y **"b"** equivalentes a 1 (a si que las dejaremos iguales), pero tenemos la **"c"** que no son iguales ya que en una c=1 y en la otra es c=0, lo que haremos será meterlo entre un parentesis y sumarlas:
 
-***a-bc + ab(-c+c)***
+***a-b-c + ab(-c+c)***
+
++ El siguiente paso que haremos será eliminar el parentesis ya que recoredmos que estamos trabajando con *0* y *1* por lo tanto la sma entre estos es y será siempre **1**.Ahora volveremos a simplificarlo con similitudes, en este caso ambas entradas **"a"** son tuenen el mismo valos ( *1* ), mientras que las otras entradas tienen valores diferentes, meteremos entre parentesis los valores de las entradas **"b"**, **"-b"** (o b negada y **"-c"**). A continuación haremos como en el ejemplo previo con los valores de las entradas *"c"*, pero en estre caso con las entradas *"b"* y sus respectivos valores.
+¡¡PERO OJO!! no eliminaremos del completo la **b** ya que estariamos dciendo que no existen o que no las necesitamos y eso no es verdad, asi que diremos que su entrada tiene el valor *1*
+
+***a-b-c + ab***
+
+***a(-b+b-c)***
+
+***a(b-c)*** ---> Fin (todas las puertas estan simplificadas)
+
+### ***El uso de la Algebra de Boole***
+¡Genial! Ya hemos simplificado el circuito pero.. ¿¿Qué significan estas letras con valores binarios?
+
++ **1-Condiciones Necesarias**
+
+lo que parece solo una combinacion de letras es nada menos que las condiciones para que la salida sea 1, es decir para que el circuito funcione. 
+En este caso para que *S=1* y encienda la calefacción sí o si necesitamos que la puerta este abierta (entrada a=1), que pueda haber alguien en consergería o que sea de día (entr)
 
 ## Montaje de circuitos
 
