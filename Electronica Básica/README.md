@@ -247,7 +247,11 @@ Los diodos LED pueden variar de colores, pero tambien de tamaños ( desde grande
 ***¿Para qué sirve?***
 
 El **transistor** es el elemento principal en los circuitos electrónicos ya que funciona como un interruptor automático, que se activa con una pequeña corriente en la base , y permite la circulación de dicha corriente entre el colector y el emisor.
-La 
+Los transistores tienen tres estados disponibles (comparación con un grifo)
+
++ **Corte**: no hay corriente en la base y los electrones no pasan del emisor al colector, como si el grifo estuviese cerrado, no pasaría agua
++ **Saturación**:
++ **Amplificación**: 
 
 
 ***Funcionamiento interno***
@@ -260,6 +264,7 @@ Se emplea en circuitos de control y es el componente básico de los microprocesa
 
 ***Variedades***
 
+Lostransistores puedes variar segun su polarización siendo NPN (**N**egativo **P**ositivo **N**egativo) cuando el colector recibe corriente de la base por el emisor y PNP (**P**ositivo **N**egativo **P**ositivo) cuando el 
 
 
 ## 6.Relés
@@ -286,19 +291,34 @@ Se emplea en circuitos de control y es el componente básico de los microprocesa
 ## Circuito 1
  <img src="Circuito-1.png" width="500" height="600" />
 
-Componentes:
-+ Pila de 4,5 voltios ( 3 de 1,5V )
+***Componentes:***
+
++ Batería de 4,5 voltios ( 3 pilas de 1,5V )
 + LED
 + Interruptor
-+ 2 resistencias, de LED a transistor 200 ohmios y de interruptor/condensador a transistor 2K ohmios
++ 2 resistencias; de LED a transistor: 200 ohmios.Y de interruptor/condensador a transistor: 2 kiloohmios
++ Transistor NPN
++ Condensador (100 microfaradios)
 
+***Funcionamiento:***
 
-Funcionamiento:
+El funcionamiento de este circuito analógico es el de encender o apagar un LED segun el estado del interruptor y el Condensador hace de batería externa cuando el circuito no suministre corriente o accionemos el interruptor.
+
  
 ## Circuito 2
  <img src="Circuito-2.png" width="500" height="600" />
+ 
+ ***Compnentes:***
+ 
++ Batería de 6V (4 pilas de 1,5V)
++ LDR (Fotorresistencia)
++ 2 resistencias; de LDR a base del trasnistor: 1 kiloohmio.Y de LDR a polo negativo de la batería: 10 kiloohmios
++ Diodo
++ Relé
 
-compnentes:
+***Funcionamiento:***
+
+Aquí, el relé funciona gracias a el transitor que esta conectado a una LDR así que dependiendo de la luminosidad se activará o no el relé.
 
 ## Circuito 3
  <img src="Circuito-3.png" width="500" height="600" />
