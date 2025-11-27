@@ -29,7 +29,7 @@ Una resistencia de 220 Ω en serie con un LED para que no se queme.
 + Dividir voltaje:
 Dos resistencias de 10 kΩ formando un divisor para obtener 6 V a partir de 12 V.
 
-+ Polarizar transistores:
++ "Polarizar" transistores:
 Una resistencia de 4.7 kΩ en la base de un transistor NPN para controlar su conducción.
 
 + Circuitos temporizadores RC:
@@ -246,7 +246,9 @@ Los diodos LED pueden variar de colores, pero tambien de tamaños ( desde grande
 
 ***¿Para qué sirve?***
 
-El **transistor** es el elemento principal en los circuitos electrónicos
+El **transistor** es el elemento principal en los circuitos electrónicos ya que funciona como un interruptor automático, que se activa con una pequeña corriente en la base , y permite la circulación de dicha corriente entre el colector y el emisor.
+La 
+
 
 ***Funcionamiento interno***
 
@@ -254,7 +256,7 @@ El **transistor** es el elemento principal en los circuitos electrónicos
 
 ***Algunas aplicaciones de uso***
 
-
+Se emplea en circuitos de control y es el componente básico de los microprocesadores y los distintos tipos de memoria que usan los ordenadores.
 
 ***Variedades***
 
