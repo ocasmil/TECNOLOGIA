@@ -249,14 +249,13 @@ Los diodos LED pueden variar de colores, pero tambien de tamaños ( desde grande
 El **transistor** es el elemento principal en los circuitos electrónicos ya que funciona como un interruptor automático, que se activa con una pequeña corriente en la base , y permite la circulación de dicha corriente entre el colector y el emisor.
 Los transistores tienen tres estados disponibles (comparación con un grifo)
 
-+ **Corte**: no hay corriente en la base y los electrones no pasan del emisor al colector, como si el grifo estuviese cerrado, no pasaría agua
-+ **Saturación**: 
-+ **Amplificación**: 
-
++ **Corte**: no hay corriente en la base y los electrones no pasan del emisor al colector, como si el grifo estuviese cerrado, no pasaría agua.
++ **Amplificación**: una pequeña corriente pasa por la base, como si el grifo enstuvierra entreabierto, pasa agua pero no toda la que puede dar.
++ **Saturación**: Cuando en el transistor está en su maximo esplendor, pasando toda la corriente que es capaz de administrar, como si un grifo estuviera a máxima potencia.
 
 ***Funcionamiento interno***
 
-
+https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.youtube.com/watch?v%3DhDb4dkoAyW4%26t%3D458&ved=2ahUKEwjSsfiM8pWRAxUs0AIHHadGEiYQ__QQegQIAhAE&opi=89978449&cd&psig=AOvVaw1sIABcZJSaz8VNwKONxPm3&ust=1764455234238000
 
 ***Algunas aplicaciones de uso***
 
