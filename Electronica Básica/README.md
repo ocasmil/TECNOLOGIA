@@ -253,6 +253,10 @@ Los transistores tienen tres estados disponibles (comparación con un grifo)
 + **Amplificación**: una pequeña corriente pasa por la base, como si el grifo enstuvierra entreabierto, pasa agua pero no toda la que puede dar.
 + **Saturación**: Cuando en el transistor está en su maximo esplendor, pasando toda la corriente que es capaz de administrar, como si un grifo estuviera a máxima potencia.
 
+<p aling="centre">
+<img src="ZonasDeCorteYSaturación.png" width="500" height="600" /> 
+</p>
+
 ***Funcionamiento interno***
 
 https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.youtube.com/watch?v%3DhDb4dkoAyW4%26t%3D458&ved=2ahUKEwjSsfiM8pWRAxUs0AIHHadGEiYQ__QQegQIAhAE&opi=89978449&cd&psig=AOvVaw1sIABcZJSaz8VNwKONxPm3&ust=1764455234238000
@@ -493,12 +497,73 @@ En este caso para que *S=1* y encienda la calefacción sí o si necesitamos que 
 ## Montaje de circuitos
 
 ### Con puerta lógica NOR con pulsadores y LED
+_**OBJETIVO:**_
+
+Comprobar el funcionamiento de una puerta lógica **NOR** O **NAND** (en este caso **NOR**) con la auda de un LED y pulsadores.
+
+_**COMPONENTES:**_
+
++ Puerta lógica NOR
++ LED
++ 3 Resistencias 1 kilohmio
++ 2 pulsadores
++ Batería de 6V (4 pilas de 1,5V)
+
+| Montaje en tinkercad | Montaje en clase | Circuito digital |
+|---|---|---|
+|   |   | <img src="electronic-simbolo-puerta-nor.png" width="300" height="600" />  |
+
+|Video del funcionamiento del circuito |
+|---|
+||
+
+_**tabla de verdad:**_
+
+| **a** | **b** | **S** |
+| :---: | :---: | :---: |
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 0 |
 
 ### Con 3 puertas lógicas (NOT-OR into AND)
 (entradas y salidas de las puertas logicas explicadas mete foto si necesitas)
 montaje sobre ldr
 montaje sustetuyend led con rele
 
+_**OBJETIVO:**_
+
+Comprobar el funcionamiento de una puerta lógica **NOR** O **NAND** (en este caso **NOR**) con la auda de un LED y pulsadores.
+
+_**COMPONENTES:**_
+
++ 3 Puertas lógicas ("NOT", "OR" y "AND")
++ LDR
++ Relé
++ Transitsor NPN
++ 3 Resistencias 1 kilohmio
++ 2 pulsadores
++ Batería de 6V (4 pilas de 1,5V)
+
+_**MONTAJE PREVIO:LDR:**_
+Para entender como va a funcionar la LDR en el circuito
+
+| Montaje en tinkercad | Montaje en clase | Circuito digital |
+|---|---|---|
+|   |   | <img src="electronic-simbolo-puerta-nor.png" width="300" height="600" />  |
+
+|Video del funcionamiento del circuito |
+|---|
+||
+
+_**tabla de verdad:**_
+
+| **a** | **b** | **S** |
+| :---: | :---: | :---: |
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 0 |
 
 
 
