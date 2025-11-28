@@ -335,7 +335,9 @@ Las **puertas lógicas** son componentes capaces de realizar operaciones sencill
 Las mas importantes son las puertas ***NOT,OR,AND,NOR,NAND y OR exclusiva ( XOR )***
 
 ### -NOT
-<img src="electronic-simbolo-puerta-not.png" width="300" height="600" />
+| Simbolo puerta lógica | Disposición interna |
+|---|---|
+|<img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> | <img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> |
 
 + ***Funciones***
 En la puerta "NOT" la salida es inversa de la entrada. Si entra un 1 sale un 0 y viceversa
@@ -478,3 +480,10 @@ En este caso para que *S=1* y encienda la calefacción sí o si necesitamos que 
 (entradas y salidas de las puertas logicas explicadas mete foto si necesitas)
 montaje sobre ldr
 montaje sustetuyend led con rele
+
+
+
+
+
+
+https://avelectronics.cc/producto/7432/
