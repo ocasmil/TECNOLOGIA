@@ -250,7 +250,7 @@ El **transistor** es el elemento principal en los circuitos electrónicos ya que
 Los transistores tienen tres estados disponibles (comparación con un grifo)
 
 + **Corte**: no hay corriente en la base y los electrones no pasan del emisor al colector, como si el grifo estuviese cerrado, no pasaría agua
-+ **Saturación**:
++ **Saturación**: 
 + **Amplificación**: 
 
 
@@ -350,7 +350,11 @@ En la puerta "NOT" la salida es inversa de la entrada. Si entra un 1 sale un 0 y
 | 0 | 1 |
   
 ### -OR
-<img src="electronic-simbolo-puerta-or.png" width="300" height="600" />
+| Simbolo puerta lógica | Disposición interna |
+|---|---|
+|<img src="electronic-simbolo-puerta-or.png" width="300" height="600" /> | <img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> |
+
+
 
 + ***Funciones***
 La puerta "OR" presenta en su salida un 1 siempre que una de sus dos entradas o las dos adoptan el valor 1. Es decir, que necesita activada "a" **o** "b" o ambas.
@@ -365,7 +369,11 @@ La puerta "OR" presenta en su salida un 1 siempre que una de sus dos entradas o 
 | 1 | 1 | 1 |
 
 ### AND
-<img src="electronic-simbolo-puerta-and.png" width="300" height="600" />
+| Simbolo puerta lógica | Disposición interna |
+|---|---|
+|<img src="electronic-simbolo-puerta-and.png" width="300" height="600" /> | <img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> |
+
+
 
 + ***Funciones***
 La salida de la puerta "AND" será 1 siempre que el valor de sus dos patillas sea 1. Es decir, que necesita encendida la "a" **y** "b" encendidas.
@@ -380,7 +388,10 @@ La salida de la puerta "AND" será 1 siempre que el valor de sus dos patillas se
 | 1 | 1 | 1 |
 
 ### XOR
-<img src="electronic-simbolo-puerta-xor.png" width="300" height="600" />
+| Simbolo puerta lógica | Disposición interna |
+|---|---|
+|<img src="electronic-simbolo-puerta-xor.png" width="300" height="600" /> | <img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> |
+
 
 + ***Funciones***
 La puerta "OR exclusiva" o "XOR" es 1 cuando *cualquiera de las dos entradas sea "1" **pero no ambas a la vez***. Osea, se da, o bien "a", o bien "b".
@@ -395,7 +406,10 @@ La puerta "OR exclusiva" o "XOR" es 1 cuando *cualquiera de las dos entradas sea
 | 1 | 1 | 0 |
 
 ### NOR
-<img src="electronic-simbolo-puerta-nor.png" width="300" height="600" />
+| Simbolo puerta lógica | Disposición interna |
+|---|---|
+|<img src="electronic-simbolo-puerta-nor.png" width="300" height="600" /> | <img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> |
+
 
 + ***Funciones***
 La puerta "NOR" es una inversión de la puerta "OR",se da 1 en la salida cuando **no** estan activadas "a", "b" o las dos a la vez.Lo mismo sería decir que solo es 1 cuando las dos entradas valen 0.
@@ -410,7 +424,10 @@ La puerta "NOR" es una inversión de la puerta "OR",se da 1 en la salida cuando 
 | 1 | 1 | 0 |
 
 ### NAND
-<img src="electronic-simbolo-puerta-nand.png" width="300" height="600" />
+| Simbolo puerta lógica | Disposición interna |
+|---|---|
+|<img src="electronic-simbolo-puerta-nand.png" width="300" height="600" /> | <img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> |
+
 
 + ***Funciones***
 Al igual que la puerta "NOR", la puerta "NAND" es una inversión de la puerta "AND",la salida tiene el valor 1 cuando está solamente encendida la entrada "a" o "b" o ninguna. Lo mismo seria decir que solo tiene valor 0 en la salida cuando en las 2 entradas ("a" y "b") presentan el valor 1.
