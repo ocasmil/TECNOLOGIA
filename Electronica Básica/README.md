@@ -337,7 +337,7 @@ Las mas importantes son las puertas ***NOT,OR,AND,NOR,NAND y OR exclusiva ( XOR 
 ### -NOT
 | Simbolo puerta lógica | Disposición interna |
 |---|---|
-|<img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> | <img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> |
+|<img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> | <img src="CircuitoIntegradoNOT.png" width="300" height="600" /> |
 
 + ***Funciones***
 En la puerta "NOT" la salida es inversa de la entrada. Si entra un 1 sale un 0 y viceversa
@@ -352,7 +352,7 @@ En la puerta "NOT" la salida es inversa de la entrada. Si entra un 1 sale un 0 y
 ### -OR
 | Simbolo puerta lógica | Disposición interna |
 |---|---|
-|<img src="electronic-simbolo-puerta-or.png" width="300" height="600" /> | <img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> |
+|<img src="electronic-simbolo-puerta-or.png" width="300" height="600" /> | <img src="CircuitoIntegradoOR.png" width="300" height="600" /> |
 
 
 
@@ -371,7 +371,7 @@ La puerta "OR" presenta en su salida un 1 siempre que una de sus dos entradas o 
 ### AND
 | Simbolo puerta lógica | Disposición interna |
 |---|---|
-|<img src="electronic-simbolo-puerta-and.png" width="300" height="600" /> | <img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> |
+|<img src="electronic-simbolo-puerta-and.png" width="300" height="600" /> | <img src="CircuitoIntegradoAND.jpg" width="300" height="600" /> |
 
 
 
@@ -390,7 +390,7 @@ La salida de la puerta "AND" será 1 siempre que el valor de sus dos patillas se
 ### XOR
 | Simbolo puerta lógica | Disposición interna |
 |---|---|
-|<img src="electronic-simbolo-puerta-xor.png" width="300" height="600" /> | <img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> |
+|<img src="electronic-simbolo-puerta-xor.png" width="300" height="600" /> | <img src="CircuitoIntegradoXOR.png" width="300" height="600" /> |
 
 
 + ***Funciones***
@@ -408,7 +408,7 @@ La puerta "OR exclusiva" o "XOR" es 1 cuando *cualquiera de las dos entradas sea
 ### NOR
 | Simbolo puerta lógica | Disposición interna |
 |---|---|
-|<img src="electronic-simbolo-puerta-nor.png" width="300" height="600" /> | <img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> |
+|<img src="electronic-simbolo-puerta-nor.png" width="300" height="600" /> | <img src="CircuitoIntegradoNOR.png" width="300" height="600" /> |
 
 
 + ***Funciones***
@@ -426,7 +426,7 @@ La puerta "NOR" es una inversión de la puerta "OR",se da 1 en la salida cuando 
 ### NAND
 | Simbolo puerta lógica | Disposición interna |
 |---|---|
-|<img src="electronic-simbolo-puerta-nand.png" width="300" height="600" /> | <img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> |
+|<img src="electronic-simbolo-puerta-nand.png" width="300" height="600" /> | <img src="CircuitoIntegradoNAND.png" width="300" height="600" /> |
 
 
 + ***Funciones***
@@ -486,8 +486,10 @@ En estre caso seria:
 
 + **1-Condiciones Necesarias**
 
-lo que parece solo una combinacion de letras es nada menos que las condiciones para que la salida sea 1, es decir para que el circuito funcione. 
-En este caso para que *S=1* y encienda la calefacción sí o si necesitamos que la puerta este abierta (entrada a=1), que pueda haber alguien en consergería o que sea de día (entr)
+Lo que parece solo una combinacion de letras es nada menos que las condiciones para que la salida sea 1, es decir para que el circuito funcione. 
+En este caso para que *S=1* y encienda la calefacción sí o si necesitamos que la puerta este abierta (entrada a=1), que pueda haber alguien en consergería o que sea de día (entrada b=1, entrada c=0)
+
++ 
 
 ## Montaje de circuitos
 
@@ -502,5 +504,3 @@ montaje sustetuyend led con rele
 
 
 
-
-https://avelectronics.cc/producto/7432/
