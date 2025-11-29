@@ -327,6 +327,7 @@ El funcionamiento de este circuito analógico es el de encender o apagar un LED 
 + LDR (Fotorresistencia)
 + 2 resistencias; de LDR a base del trasnistor: 1 kiloohmio.Y de LDR a polo negativo de la batería: 10 kiloohmios
 + Diodo
++ Transistor NPN
 + Relé
 
 ***Funcionamiento:***
@@ -336,7 +337,19 @@ Aquí, el relé funciona gracias a el transitor que esta conectado a una LDR as�
 ## Circuito 3
  <img src="Circuito-3.png" width="500" height="600" />
 
- componentes:
+ ***Compnentes:***
+ 
++ 2 Baterías; una de 6V (4 pilas de 1,5V) y la otra de 9V
++ LDR (Fotorresistencia)
++ Resistencia 2,2 kiloohmios
++ Diodo
++ Relé
++ Potenciómetro
+  
+***Funcionamiento:***
+
+Aquí, el relé funciona gracias a el transitor que esta conectado a una LDR así que dependiendo de la luminosidad se activará o no el relé.
+
 
 ---
 
@@ -537,7 +550,7 @@ _**COMPONENTES:**_
 
 |Video del funcionamiento del circuito |
 |---|
-|   |
+|  [![](https://img.youtube.com/vi/qrQY_uTmAVU/0.jpg)](https://www.youtube.com/watch?v=qrQY_uTmAVU) |
 
 _**tabla de verdad:**_
 
@@ -578,7 +591,7 @@ _**MONTAJE**_
 
 | Montaje en tinkercad | Montaje en clase | Circuito digital |
 |---|---|---|
-|   |   | <img src="electronic-simbolo-puerta-nor.png" width="300" height="600" />  |
+| <img src="Montaje3PLyRele.png" width="500" height="400" />   |   | <img src="electronic-simbolo-puerta-nor.png" width="300" height="600" />  |
 
 |Video del funcionamiento del circuito |
 |---|
