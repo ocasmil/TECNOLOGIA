@@ -244,6 +244,10 @@ Los diodos LED pueden variar de colores, pero tambien de tamaños ( desde grande
 
 ## 5.Transistores
 
+<p align="center">
+<img src="Transistor.jpg" width="500" height="600" /> 
+</p>
+
 ***¿Para qué sirve?***
 
 El **transistor** es el elemento principal en los circuitos electrónicos ya que funciona como un interruptor automático, que se activa con una pequeña corriente en la base , y permite la circulación de dicha corriente entre el colector y el emisor.
@@ -270,6 +274,9 @@ Se emplea en circuitos de control y es el componente básico de los microprocesa
 
 Los transistores puedes variar segúnn su polarización siendo NPN (**N**egativo **P**ositivo **N**egativo) cuando el colector recibe corriente de la base por el emisor y PNP (**P**ositivo **N**egativo **P**ositivo) cuando el emisor recibe corriente de la base al colector.
 
+<p align="center">
+<img src="transistorNPNyPNP.webp" width="500" height="600" /> 
+</p>
 
 ## 6.Relés
 | | |
