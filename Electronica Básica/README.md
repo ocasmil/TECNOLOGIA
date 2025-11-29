@@ -260,8 +260,7 @@ Los transistores tienen tres estados disponibles (comparación con un grifo)
 ***Funcionamiento interno***
 |explicación|imagen|
 |---|---|
-|Adentro del transistor se encuentran un "sandwich componentes de silicio polarizados" que estan conectados a cada una de las patillas del transistor|
-<img src="Estructura-Transitor.png" width="500" height="600" /> |
+|Adentro del transistor se encuentran un "sandwich componentes de silicio polarizados" que estan conectados a cada una de las patillas del transistor|<img src="Estructura-Transitor.gif" width="500" height="600" /> |
 
 ***Algunas aplicaciones de uso***
 
@@ -513,7 +512,9 @@ En este caso para que *S=1* y encienda la calefacción sí o si necesitamos que 
   
 No es muy inteligente decir que la simplificación sirve para simplificar, pero aqui es diferente ya que en la expresión algebraica que hemos conseguido tiene en ella las interacciones de las entradas en entre ellas, por ejemplo la multiplicación sería una puerta AND ya que la única manera que sea 1 es que ambas salidas sean uno ( **1x0=1 1x1=0** ) o la suma es un or ya que siempre que sumemos cualquier número . Veamos como sería:
 
-
+<p align="center">
+<img src="CircutioSimplificado.png" width="300" height="400" /> 
+</p>
 
 ## Montaje de circuitos
 
