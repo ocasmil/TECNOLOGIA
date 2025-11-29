@@ -253,42 +253,53 @@ Los transistores tienen tres estados disponibles (comparación con un grifo)
 + **Amplificación**: una pequeña corriente pasa por la base, como si el grifo enstuvierra entreabierto, pasa agua pero no toda la que puede dar.
 + **Saturación**: Cuando en el transistor está en su maximo esplendor, pasando toda la corriente que es capaz de administrar, como si un grifo estuviera a máxima potencia.
 
-<p aling="centre">
-<img src="ZonasDeCorteYSaturación.png" width="500" height="600" /> 
+<p align="center">
+<img src="ZonasDeCorteYSaturacion.png" width="500" height="600" /> 
 </p>
 
 ***Funcionamiento interno***
-
- 
+|explicación|imagen|
+|---|---|
+|Adentro del transistor se encuentran un "sandwich componentes de silicio polarizados" que estan conectados a cada una de las patillas del transistor|
+<img src="Estructura-Transitor.png" width="500" height="600" /> |
 
 ***Algunas aplicaciones de uso***
 
-Se emplea en circuitos de control y es el componente básico de los microprocesadores y los distintos tipos de memoria que usan los ordenadores.
+Se emplea en circuitos de control y es el componente básico de los microprocesadores y los distintos tipos de memoria que usan los ordenadores. Lo vamos a ver muchas vecen en montajes que tengan reles ahora más adelante.
 
 ***Variedades***
 
-Lostransistores puedes variar segun su polarización siendo NPN (**N**egativo **P**ositivo **N**egativo) cuando el colector recibe corriente de la base por el emisor y PNP (**P**ositivo **N**egativo **P**ositivo) cuando el 
+Los transistores puedes variar segúnn su polarización siendo NPN (**N**egativo **P**ositivo **N**egativo) cuando el colector recibe corriente de la base por el emisor y PNP (**P**ositivo **N**egativo **P**ositivo) cuando el emisor recibe corriente de la base al colector.
 
 
 ## 6.Relés
-| <img width="1338" height="500" alt="image" src="https://github.com/user-attachments/assets/c15197a9-4be1-405d-951f-5c0309f8037e" /> | <img width="130" height="130" alt="image" src="https://github.com/user-attachments/assets/2b0d994a-1d5f-430f-831a-37ef3a2d275b" />|
+| | |
+|---|---|
+| <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/c15197a9-4be1-405d-951f-5c0309f8037e" /> | <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/2b0d994a-1d5f-430f-831a-37ef3a2d275b" />|
 
 
 ***¿Para qué sirve?***
 
- 
+Los relés son interruptores controlados electricamente, según cuanta corriente pase por uno de sus terminales especificos tendra una posición u otra. Esto sirve para 
 
 ***Funcionamiento interno***
 
+<p align="center">
+<img src="ZonasDeCorteYSaturacion.png" width="500" height="600" /> 
+</p>
 
+En los reles se encuentra un rollo de cobre que al pasar corriente a través de ella consigue crear un campo magnético, esto lo usa a su favor con una pieza metalica alargada(contacto movil) que, cuando el rollo no tiene coriente, está en contacto con otra pieza metálica dejando que haya un paso de corriente que cierra el circuito, pero al energizar el cilindro esa pieza metálica campia su posición devido al campo magnético y toca otra pieza metalica que da paso de corriente por otro terminal, dejando el anterior circuito _abierto_ y _cerrando_ el nuevo.
 
 ***Algunas aplicaciones de uso***
-
-
+Los relés tienen varias aplicaciones:
++ **Automoción:** Controlan funciones como el encendido del motor de arranque, las luces, las bocinas y las bombas de combustible, protegiendo el sistema eléctrico del vehículo.
++ **Automatización industrial:** Se utilizan en la lógica de control de maquinaria para gestionar procesos complejos.
++ **Sistemas de climatización y refrigeración:** Mantienen temperaturas constantes activando o desactivando hornos o sistemas de refrigeración.
++ **Electrónica doméstica:** Integrados en placas de circuito de lavadoras, secadoras y otros electrodomésticos para gestionar distintas cargas eléctricas. 
 
 ***Variedades***
 
-
+En clase no hemos visto muchas variedades mas allá de su numewro de terminales pero existen una gran variedad de relés tales como los de **temporizador** (Timer relay) que actúan después de un retraso programado o los de **estado sólido** que no tiene partes móviles, trabaja electrónicamente.
 
 # CIRCUITOS DE FUNCIONAMIENTO
 ## Circuito 1
@@ -343,6 +354,7 @@ Las mas importantes son las puertas ***NOT,OR,AND,NOR,NAND y OR exclusiva ( XOR 
 |<img src="electronic-simbolo-puerta-not.png" width="300" height="600" /> | <img src="CircuitoIntegradoNOT.png" width="300" height="600" /> |
 
 + ***Funciones***
+  
 En la puerta "NOT" la salida es inversa de la entrada. Si entra un 1 sale un 0 y viceversa
 
 + ***Tabla de Verdad***
@@ -360,6 +372,7 @@ En la puerta "NOT" la salida es inversa de la entrada. Si entra un 1 sale un 0 y
 
 
 + ***Funciones***
+  
 La puerta "OR" presenta en su salida un 1 siempre que una de sus dos entradas o las dos adoptan el valor 1. Es decir, que necesita activada "a" **o** "b" o ambas.
 
 + ***Tabla de Verdad***
@@ -379,6 +392,7 @@ La puerta "OR" presenta en su salida un 1 siempre que una de sus dos entradas o 
 
 
 + ***Funciones***
+  
 La salida de la puerta "AND" será 1 siempre que el valor de sus dos patillas sea 1. Es decir, que necesita encendida la "a" **y** "b" encendidas.
 
 + ***Tabla de Verdad***
@@ -397,6 +411,7 @@ La salida de la puerta "AND" será 1 siempre que el valor de sus dos patillas se
 
 
 + ***Funciones***
+  
 La puerta "OR exclusiva" o "XOR" es 1 cuando *cualquiera de las dos entradas sea "1" **pero no ambas a la vez***. Osea, se da, o bien "a", o bien "b".
 
 + ***Tabla de Verdad***
@@ -415,6 +430,7 @@ La puerta "OR exclusiva" o "XOR" es 1 cuando *cualquiera de las dos entradas sea
 
 
 + ***Funciones***
+  
 La puerta "NOR" es una inversión de la puerta "OR",se da 1 en la salida cuando **no** estan activadas "a", "b" o las dos a la vez.Lo mismo sería decir que solo es 1 cuando las dos entradas valen 0.
 
 + ***Tabla de Verdad***
@@ -433,6 +449,7 @@ La puerta "NOR" es una inversión de la puerta "OR",se da 1 en la salida cuando 
 
 
 + ***Funciones***
+  
 Al igual que la puerta "NOR", la puerta "NAND" es una inversión de la puerta "AND",la salida tiene el valor 1 cuando está solamente encendida la entrada "a" o "b" o ninguna. Lo mismo seria decir que solo tiene valor 0 en la salida cuando en las 2 entradas ("a" y "b") presentan el valor 1.
 
 + ***Tabla de Verdad***
