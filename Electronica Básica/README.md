@@ -355,7 +355,7 @@ Aquí, el relé funciona gracias a el transitor que esta conectado a una LDR as�
   
 ***Funcionamiento:***
 
-Aquí, el relé funciona gracias a el transitor que esta conectado a una LDR así que dependiendo de la luminosidad se activará o no el relé.
+Dependiendo de la resistencia que opongan las resistencias variables (**LDR y Potenciómetros**) el motor girará a un sentido u otro gracias al relé.
 
 
 ---
