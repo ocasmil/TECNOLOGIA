@@ -259,7 +259,7 @@ Los transistores tienen tres estados disponibles (comparación con un grifo)
 
 ***Funcionamiento interno***
 
-https://www.google.com/url?sa=i&source=web&rct=j&url=https://www.youtube.com/watch?v%3DhDb4dkoAyW4%26t%3D458&ved=2ahUKEwjSsfiM8pWRAxUs0AIHHadGEiYQ__QQegQIAhAE&opi=89978449&cd&psig=AOvVaw1sIABcZJSaz8VNwKONxPm3&ust=1764455234238000
+ 
 
 ***Algunas aplicaciones de uso***
 
@@ -492,7 +492,10 @@ En estre caso seria:
 Lo que parece solo una combinacion de letras es nada menos que las condiciones para que la salida sea 1, es decir para que el circuito funcione. 
 En este caso para que *S=1* y encienda la calefacción sí o si necesitamos que la puerta este abierta (entrada a=1), que pueda haber alguien en consergería o que sea de día (entrada b=1, entrada c=0)
 
-+ 
++ **2-Simplificación del circuito**
+  
+No es muy inteligente decir que la simplificación sirve para simplificar, pero aqui es diferente ya que en la expresión algebraica que hemos conseguido tiene en ella las interacciones de las entradas en entre ellas, por ejemplo la multiplicación sería una puerta AND ya que la única manera que sea 1 es que ambas salidas sean uno ( **1x0=1 1x1=0** ) o la suma es un or ya que siempre que sumemos cualquier número . Veamos como sería:
+
 
 ## Montaje de circuitos
 
@@ -546,7 +549,11 @@ _**COMPONENTES:**_
 + Batería de 6V (4 pilas de 1,5V)
 
 _**MONTAJE PREVIO:LDR:**_
-Para entender como va a funcionar la LDR en el circuito
+Para entender como va a funcionar la LDR en el circuito vamos a montar el mismo circuito pero sustituiremos el montaje del relé por un LED.
+| Montaje en tinkercad | Montaje en clase | Circuito digital |
+|---|---|---|
+|   |   | <img src="electronic-simbolo-puerta-nor.png" width="300" height="600" />  |
+
 
 | Montaje en tinkercad | Montaje en clase | Circuito digital |
 |---|---|---|
