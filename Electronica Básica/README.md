@@ -260,7 +260,7 @@ Los transistores tienen tres estados disponibles (comparación con un grifo)
 ***Funcionamiento interno***
 |explicación|imagen|
 |---|---|
-|Adentro del transistor se encuentran un "sandwich componentes de silicio polarizados" que estan conectados a cada una de las patillas del transistor|<img src="Estructura-Transitor.gif" width="500" height="600" /> |
+|Adentro del transistor se encuentran un "sandwich componentes de silicio polarizados" que estan conectados a cada una de las patillas del transistor|<img src="Estructura-Transitor.gif" width="500" height="600" /> aqui se deveria de ver una foto pero hay un problema|
 
 ***Algunas aplicaciones de uso***
 
@@ -546,7 +546,7 @@ _**COMPONENTES:**_
 
 | Montaje en tinkercad | Montaje en clase | Circuito digital |
 |---|---|---|
-|   |   | <img src="electronic-simbolo-puerta-nor.png" width="300" height="600" />  |
+| <img src="MontajePuertaNOR.png" width="500" height="400" />  | <img src="MontajePuertaNORIRL.jpg" width="500" height="400" />  | <img src="electronic-simbolo-puerta-nor.png" width="300" height="600" />  |
 
 |Video del funcionamiento del circuito |
 |---|
@@ -562,14 +562,10 @@ _**tabla de verdad:**_
 | 1 | 1 | 0 |
 
 ### Con 3 puertas lógicas (NOT-OR into AND)
-(entradas y salidas de las puertas logicas explicadas mete foto si necesitas)
-montaje sobre ldr
-montaje sustetuyend led con rele
 
 _**OBJETIVO:**_
 
-Comprobar el funcionamiento de una puerta lógica **NOR** O **NAND** (en este caso **NOR**) con la auda de un LED y pulsadores.
-
+Activar un relé mediante un circuito de puertas lógicas conectadas a **2 pulsadores** y un **LDR**
 _**COMPONENTES:**_
 
 + 3 Puertas lógicas ("NOT", "OR" y "AND")
@@ -586,7 +582,7 @@ Para entender como va a funcionar la LDR en el circuito vamos a montar el mismo 
 | Montaje en tinkercad | Montaje en clase | Circuito digital |
 |---|---|---|
 |  <img src="Montaje3PJconLDR.png" width="500" height="400" />   |   | <img src="electronic-simbolo-puerta-nor.png" width="300" height="400" />  |
-
+Podemos ver que el LDR actua como un un interruptor de luminosidad que al estar conectada con una puerta NOT, va a inversir su señal, siendo 1=oscuridad 0=luz.
 _**MONTAJE**_
 
 | Montaje en tinkercad | Montaje en clase | Circuito digital |
