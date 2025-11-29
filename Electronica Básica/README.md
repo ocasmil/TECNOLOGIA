@@ -245,7 +245,7 @@ Los diodos LED pueden variar de colores, pero tambien de tamaños ( desde grande
 ## 5.Transistores
 
 <p align="center">
-<img src="Transistor.jpg" width="500" height="600" /> 
+<img src="Transistor.jpg" width="300" height="400" /> 
 </p>
 
 ***¿Para qué sirve?***
@@ -291,7 +291,7 @@ Los relés son interruptores controlados electricamente, según cuanta corriente
 ***Funcionamiento interno***
 
 <p align="center">
-<img src="ZonasDeCorteYSaturacion.png" width="500" height="600" /> 
+<img src="Rele_partes.jpg" width="500" height="600" /> 
 </p>
 
 En los reles se encuentra un rollo de cobre que al pasar corriente a través de ella consigue crear un campo magnético, esto lo usa a su favor con una pieza metalica alargada(contacto movil) que, cuando el rollo no tiene coriente, está en contacto con otra pieza metálica dejando que haya un paso de corriente que cierra el circuito, pero al energizar el cilindro esa pieza metálica campia su posición devido al campo magnético y toca otra pieza metalica que da paso de corriente por otro terminal, dejando el anterior circuito _abierto_ y _cerrando_ el nuevo.
