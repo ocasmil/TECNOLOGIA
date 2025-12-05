@@ -52,6 +52,10 @@ Las resistencias fijas al no poder cambiar su valor a voluntad, estan indicadas 
 
 </p>
 
+**_Uso en clase_**
+
+Hemos udado las resistencias fijas para protejer los LEDs, como un divisor de tensión en el montaje de 3 puertas lógicas con LED/ Relé (conexión de la LDR/pulsador con la resistencia) para que la corriente no se venga abajo y provoque un cortocircuito, para polarizar algunos tranistores en los circuitos de funcionamiento y capacitar transistores, tambien en los circuitos de funcionamiento.
+
 ### 1.2 Resitencias variables
 <p align="center"> 
 <img width="686" height="326" alt="image" src="https://github.com/user-attachments/assets/bb64333d-6cc0-49c0-a25b-326b7b5fe088" />
@@ -86,6 +90,10 @@ Existen varios tipos de resistencias variables dependiendo de como pueden ser re
 | Manualmente  | Potenciómetro |
 | Cantidad de luz del entorno   | Fotoresistencia (*Light-Depended Resistor*) |
 | Cambios en la temperatura | NTC/*Negative Temperature Coefficient* (disminuye si se eleva la temp.) o PTC/*Positive Temperature Coefficient* (aumenta si se incrementa la temperatura)  |
+
+**_Uso en clase_**
+
+Hemos udado las resistencias variables como interruptores que dependientes de la luz (LDR) o de los.
 
 ## 2.Condensadores
 <p align="center"> 
@@ -498,9 +506,9 @@ El siguiente paso será crear una tabla de verdad con lo anterior mencionado
 | 0 | 1 | 0 | 0 |
 | 1 | 0 | 1 | 0 |
 | 0 | 1 | 1 | 0 |
-| *1* | *0* | *0* | *1* |
-| *1* | *1* | *0* | *1* |
-| *1* | *1* | *1* | *1* |
+| ***1*** | ***0*** | ***0*** | ***1*** |
+| ***1*** | ***1*** | ***0*** | ***1*** |
+| ***1*** | ***1*** | ***1*** | ***1*** |
 
 + Seleccionaremos aquellas combinaciones que presenten en la salida el valor "1" y las traduciremos al lenguaje algebraico de Boole indicando las combinaciones de tal manera que sea **abc** siendo **"a"** cuando a=1 y **"-a"** (a negada) cuando a=0
 En estre caso seria:
@@ -521,7 +529,7 @@ En estre caso seria:
 ***a(b-c)*** ---> Fin (todas las puertas estan simplificadas)
 
 ### ***El uso de la Algebra de Boole***
-¡Genial! Ya hemos simplificado el circuito pero.. ¿¿Qué significan estas letras con valores binarios?
+¡Genial! Ya hemos simplificado el circuito pero.. ¿¿Qué significan estas letras con valores binarios??
 
 + **1-Condiciones Necesarias**
 
@@ -530,7 +538,7 @@ En este caso para que *S=1* y encienda la calefacción sí o si necesitamos que 
 
 + **2-Simplificación del circuito**
   
-No es muy inteligente decir que la simplificación sirve para simplificar, pero aqui es diferente ya que en la expresión algebraica que hemos conseguido tiene en ella las interacciones de las entradas en entre ellas, por ejemplo la multiplicación sería una puerta AND ya que la única manera que sea 1 es que ambas salidas sean uno ( **1x0=1 1x1=0** ) o la suma es un or ya que siempre que sumemos cualquier número . Veamos como sería:
+No es muy inteligente decir que la simplificación sirve para simplificar, pero aqui es diferente ya que en la expresión algebraica que hemos conseguido tiene en ella las interacciones de las entradas en entre ellas, por ejemplo la multiplicación sería una puerta **AND** ya que la única manera que sea 1 es que ambas salidas sean uno ( **1x0=1 1x1=0** ) o la suma es un **OR** ya que 1+0=1 ; 0+0=0 y si ambos son 1 como no podemos poner un 2 será 1(**1+1=2-->1**). Veamos como sería:
 
 <p align="center">
 <img src="CircutioSimplificado.png" width="300" height="400" /> 
@@ -589,7 +597,9 @@ Para entender como va a funcionar la LDR en el circuito vamos a montar el mismo 
 | Montaje en tinkercad | Montaje en clase | Circuito digital |
 |---|---|---|
 |  <img src="Montaje3PJconLDR.png" width="500" height="400" />   |   | <img src="electronic-simbolo-puerta-nor.png" width="300" height="400" />  |
+
 Podemos ver que el LDR actua como un un interruptor de luminosidad que al estar conectada con una puerta NOT, va a inversir su señal, siendo 1=oscuridad 0=luz.
+
 _**MONTAJE**_
 
 | Montaje en tinkercad | Montaje en clase | Circuito digital |
