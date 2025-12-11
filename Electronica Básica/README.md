@@ -637,8 +637,7 @@ _**tabla de verdad:**_
 
 _**Algebra Boole**_
 
-<p align="center">
-<img src="algebra.png" width="300" height="600" />
-</p>
+<img src="AlgebraBooole.png" width="300" height="600" />
+
 
 
