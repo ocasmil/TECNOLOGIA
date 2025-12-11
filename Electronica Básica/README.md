@@ -596,7 +596,7 @@ _**MONTAJE PREVIO(LDR)**_
 Para entender como va a funcionar la LDR en el circuito vamos a montar el mismo circuito pero sustituiremos el montaje del relé por un LED.
 | Montaje en tinkercad | Montaje en clase | Circuito digital |
 |---|---|---|
-|  <img src="Montaje3PJconLDR.png" width="500" height="400" />   |   | <img src="electronic-simbolo-puerta-nor.png" width="300" height="400" />  |
+|  <img src="Montaje3PJconLDR.png" width="500" height="400" />   |   | <img src="compuertas-logicas.png" width="300" height="400" />  |
 
 _**MONTAJE**_
 
@@ -609,7 +609,7 @@ _**MONTAJE**_
 
 | Montaje en tinkercad | Montaje en clase | Circuito digital |
 |---|---|---|
-| <img src="Montaje3PLyRele.png" width="500" height="400" />   |   | <img src="electronic-simbolo-puerta-nor.png" width="300" height="600" />  |
+| <img src="Montaje3PLyRele.png" width="500" height="400" />   |   | <img src="compuertas-logicas.png" width="300" height="600" />  |
 
 |Video del funcionamiento del circuito |
 |---|
