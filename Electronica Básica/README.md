@@ -598,7 +598,12 @@ Para entender como va a funcionar la LDR en el circuito vamos a montar el mismo 
 |---|---|---|
 |  <img src="Montaje3PJconLDR.png" width="500" height="400" />   |   | <img src="electronic-simbolo-puerta-nor.png" width="300" height="400" />  |
 
+_**MONTAJE**_
+
 Podemos ver que el LDR actua como un un interruptor de luminosidad que al estar conectada con una puerta NOT, va a inversir su señal, siendo 1=oscuridad 0=luz.
+
+
+
 
 _**MONTAJE**_
 
@@ -612,13 +617,21 @@ _**MONTAJE**_
 
 _**tabla de verdad:**_
 
-| **a** | **b** | **S** |
-| :---: | :---: | :---: |
-| 0 | 0 | 1 |
-| 0 | 1 | 0 |
-| 1 | 0 | 0 |
-| 1 | 1 | 0 |
+| **a** | **b** | **c** | **S** |
+| :---: | :---: | :---: | :---: |
+| 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 1 |
+| 1 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 1 |
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 0 |
+| 1 | 1 | 1 | 0 |
 
+_**Algebra Boole**_
 
+<p align="center">
+<img src="algebra.png" width="300" height="600" />
+</p>
 
 
