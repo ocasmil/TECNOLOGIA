@@ -581,6 +581,7 @@ _**tabla de verdad:**_
 _**OBJETIVO:**_
 
 Activar un relé mediante un circuito de puertas lógicas conectadas a **2 pulsadores** y un **LDR**
+
 _**COMPONENTES:**_
 
 + 3 Puertas lógicas ("NOT", "OR" y "AND")
@@ -593,12 +594,18 @@ _**COMPONENTES:**_
 
 _**MONTAJE PREVIO(LDR)**_
 
+_**OBJETIVO:**_
+
+Activar un LED mediante un circuito de 3 puertas lógicas siendo sus entradas **2 pulsadores** y una **LDR**.
+
+
 Para entender como va a funcionar la LDR en el circuito vamos a montar el mismo circuito pero sustituiremos el montaje del relé por un LED.
 | Montaje en tinkercad | Montaje en clase | Circuito digital |
 |---|---|---|
-|  <img src="Montaje3PJconLDR.png" width="500" height="400" />   |   | <img src="compuertas-logicas.png" width="300" height="400" />  |
+|  <img src="Montaje3PJconLDR.png" width="500" height="400" />   |  <img src="IMG_9504.jpeg" width="500" height="400" />   | <img src="compuertas-logicas.png" width="300" height="400" />  |
 
 _**MONTAJE**_
+
 
 Podemos ver que el LDR actua como un un interruptor de luminosidad que al estar conectada con una puerta NOT, va a inversir su señal, siendo 1=oscuridad 0=luz.
 
