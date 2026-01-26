@@ -8,7 +8,7 @@
 
 |Explicación general | Foto |
 |---|---|
-|Este circuito neumático nos permite mover una plataforma elevadora (de arriba a abajo) desde dos puntos distintos, arriba en la plataforma o abajo en el suelo.|
+|Este circuito neumático nos permite mover una plataforma elevadora (de arriba a abajo) desde dos puntos distintos, arriba en la plataforma o abajo en el suelo.|IMG_20260120_083057.jpg|
 
 _**Explicación del circuito:**_
 
