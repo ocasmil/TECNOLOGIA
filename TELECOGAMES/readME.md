@@ -11,7 +11,7 @@ El sensor de presión actua dando valores según la fuerza que se le es aplicada
  _Los valores pueden variar segun que valores asignemos en arduino:**(variable nombre) = map([variable numérica],0, 1023,0, número)**_
 
 - **Funcionamiento del circuito**
-
+<img src="image.png" width="500" height="600" /> 
 ### Sensor de temperatura
 
 
