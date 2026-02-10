@@ -33,6 +33,7 @@ El sensor de presión actua dando valores según la fuerza que se le es aplicada
  
 ### Sensor de humedad
 
+### Sensor PIR
 
 
 
