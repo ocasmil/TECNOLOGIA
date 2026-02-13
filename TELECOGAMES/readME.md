@@ -57,7 +57,7 @@ El sensor de presión actua dando valores según la fuerza que se le es aplicada
  
  |VIDEO DEL FUNCIONAMIENTO DEL CIRCUITO|
  |---|
- | [![](https://img.youtube.com/vi/cS23Cyq-Ufs/0.jpg)](https://www.youtube.com/watch?v=cS23Cyq-Ufs)  |
+ | [![](https://img.youtube.com/vi/-ppLgcI7gHQ/0.jpg)](https://www.youtube.com/watch?v=-ppLgcI7gHQ)  |
 
 </p>
 
