@@ -42,9 +42,9 @@ El sensor de presión actua dando valores según la fuerza que se le es aplicada
 
 - **Funcionamiento del circuito**
   
-|arduino|montaje|
-|---|---|
-|<img src="FuncionamientoDelCircuito.png" width="500" height="600" />|<img src="IMG_0719.jpeg" width="500" height="600" /> |
+|arduino|montaje|tinkercad|
+|---|---|---|
+|<img src="FuncionamientoCircuitoHumedad.png" width="500" height="600" />|<img src="IMG_0719.jpeg" width="500" height="600" /> |  |
 
 
 |parte|funcionamiento|
