@@ -1,6 +1,11 @@
 # TELECOGAMES
 ## Prueba de sensores
+
+
 ### LDR
+
+
+
 ### Sensor de presión
 
 En nuestro projecto necesitaremos un encargado de asegurar que la puerta del invernadero este cerrada para proceder sin riesgo con las tareas de regado, para ello usaremos un **sensor de presión.**
@@ -37,7 +42,7 @@ Otro encargado importante de asegurar que la tierra del invernadero este humedad
 
 - **¿Como funciona?**
 
-El sensor de presión actua dando valores según la fuerza que se le es aplicada.
+El sensor de presión actua dando valores según la humedad que percibaaltacto de sus dos salientes metálicos.
  (_Los valores pueden variar segun que valores asignemos en arduino:**(variable nombre) = map([variable numérica],0, 1023,0, número)**_)
 
 - **Funcionamiento del circuito**
@@ -61,7 +66,18 @@ El sensor de presión actua dando valores según la fuerza que se le es aplicada
 
 </p>
 
+
+### Sensor de temperatura
+
+
+
+### sensor
+
+
+
 ### Sensor PIR
+
+
 
 
 
