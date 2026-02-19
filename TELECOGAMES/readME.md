@@ -15,7 +15,7 @@ El sensor de presión actua dando valores según la humedad que percibaaltacto d
   
 |arduino|montaje|tinkercad|
 |---|---|---|
-|<img src="FuncinamientoCircuitoHumedad.png" width="500" height="600" />|<img src="sensor_de_LDR.jpeg" width="500" height="600" /> | <img src="TinkercadLDR.png" width="500" height="600" /> |
+|<img src="sensor_de_LDR.jpeg" width="500" height="600" /> |<img src="LDR.jpeg" width="500" height="600" /> | <img src="TinkercadLDR.png" width="500" height="600" /> |
 
 
 |parte|funcionamiento|
