@@ -138,7 +138,8 @@ El sensor de temperatura mide valores según la temperatura que perciba de su en
 ### Sensor PIR
 
 ## Diseño del invernadero
- Pasamos a montar la maqueta de la estructura que va a contener todos los componentes, para ello pasamos con nuestra "lluvia de ideas" donde acababos haciendo enfasis en **tipo de unión** y **tipo de base**
+### Diseños iniciales
+ Pasamos a montar la maqueta de la estructura que va a contener todos los componentes, para ello pasamos con nuestra "lluvia de ideas" donde podemos dividir las ideas en **tipo de unión** y **tipo de base**.
 
 
 
