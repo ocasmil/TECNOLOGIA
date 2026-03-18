@@ -138,7 +138,7 @@ El sensor de temperatura mide valores según la temperatura que perciba de su en
 ### Sensor PIR
 
 ## Diseño del invernadero
-### Diseños iniciales
+### PROPUESTAS
  Pasamos a montar la maqueta de la estructura que va a contener todos los componentes, para ello pasamos con nuestra "lluvia de ideas" donde podemos dividir las ideas en **tipo de unión** y **tipo de base**.
 
  <p aling="centre">
@@ -146,6 +146,29 @@ El sensor de temperatura mide valores según la temperatura que perciba de su en
 <img src="propuestasdeDISEÑO.png" width="700" height="600" />
 
 </p>
+
+Vamos a aclarar todas las propuestas y veremos sus ventajas y desventajas que aporten.
+
+#### Según su base
+
+
+<img src="sunsubase.png" width="700" height="600" />
+
+ |**tipo**|**descripción**|<img src="ventaja.png" width="100" height="100" />|<img src="desventajas.png" width="100" height="100" />|
+ |---|---|---|---|
+ |<img src="vigas.png" width="100" height="100" />| En esta estructura usamos las vigas que hemos usado para el techo con suelo| Al ser hueco tiene menos peso y tiene una unión fuerte| Sacrificamos 4cm de altura (-22,22%)|
+ |<img src="plataforma.png" width="100" height="100" />| Usamos planchas que se conectan entre si para sostener las columnas| perdemos menos altura (-2cm), facil de llevar y montar |Tener que crear un diseño único de cada plataforma (no son iguales)  |
+
+#### Según su unión
+
+
+<img src="sgunsuunion.png" width="700" height="600" />
+
+ |**tipo**|**descripción**|<img src="ventaja.png" width="100" height="100" />|<img src="desventajas.png" width="100" height="100" />|
+ |---|---|---|---|
+ |<img src="vigascolumnas.png" width="100" height="100" />| En esta red de vigas se unen vigas entre columnas que actuan como nexos | diseño simple no hace falta crear muchos diseños | pocos o ninguno (precisión en los salientes y huecos.)|
+ |<img src="vigasvigas.png" width="100" height="100" />| Usamos planchas que se conectan entre si para sostener las columnas| perdemos menos altura (-2cm), facil de llevar y montar |Tener que crear un diseño único de cada plataforma (no son iguales)  |
+  |<img src="elementounion.png" width="100" height="100" />| Usamos planchas que se conectan entre si para sostener las columnas| perdemos menos altura (-2cm), facil de llevar y montar |Tener que crear un diseño único de cada plataforma (no son iguales)  |
 
 
 
