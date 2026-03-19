@@ -166,10 +166,11 @@ Vamos a aclarar todas las propuestas y veremos sus ventajas y desventajas que ap
 
  |**tipo**|**descripción**|<img src="ventaja.png" width="100" height="100" />|<img src="desventajas.png" width="100" height="100" />|
  |---|---|---|---|
- |<img src="vigascolumnas.png" width="100" height="100" />| En esta red de vigas se unen vigas entre columnas que actuan como nexos | diseño simple no hace falta crear muchos diseños | pocos o ninguno (precisión en los salientes y huecos.)|
- |<img src="vigasvigas.png" width="100" height="100" />| Usamos planchas que se conectan entre si para sostener las columnas| perdemos menos altura (-2cm), facil de llevar y montar |Tener que crear un diseño único de cada plataforma (no son iguales)  |
-  |<img src="elementounion.png" width="100" height="100" />| Usamos planchas que se conectan entre si para sostener las columnas| perdemos menos altura (-2cm), facil de llevar y montar |Tener que crear un diseño único de cada plataforma (no son iguales)  |
+ |<img src="vigascolumnas.png" width="200" height="100" />| En esta red de vigas se unen vigas entre columnas que actuan como nexos | diseño simple no hace falta crear muchos diseños | pocos o ninguno (precisión en los salientes y huecos.)|
+ |<img src="vigasvigas.png" width="200" height="100" />| aqui unimos vigas entre vigas en los estremos pero no en las esquinas, las vigas tienen un agujero donde intecalar la columna| no perdemos altura |tenemos que diseñar muchas piezas diferentes, se pierde anchura y largo a comparacion de los demás tipos de unión|
+  |<img src="elementounion.png" width="200" height="100" />|En esta estructura unimos vigas a unos elementos de unión huecos asi las vigas actuando tambien como columnas | solo necesitamos 2 diseños | Su estructura es débil asi que se puede caer o doblar |
 
+##3 diseño final
 
 
 
