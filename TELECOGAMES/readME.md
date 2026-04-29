@@ -137,7 +137,7 @@ El sensor de temperatura mide valores según la temperatura que perciba de su en
 
 ### Sensor PIR
 
-## Diseño del invernadero
+## DISEÑO DEL INVERNADERO (MAQUETA)
 ### PROPUESTAS
  Pasamos a montar la maqueta de la estructura que va a contener todos los componentes, para ello pasamos con nuestra "lluvia de ideas" donde podemos dividir las ideas en **tipo de unión** y **tipo de base**.
 
@@ -170,7 +170,52 @@ Vamos a aclarar todas las propuestas y veremos sus ventajas y desventajas que ap
  |<img src="vigasvigas.png" width="200" height="100" />| aqui unimos vigas entre vigas en los estremos pero no en las esquinas, las vigas tienen un agujero donde intecalar la columna| no perdemos altura |tenemos que diseñar muchas piezas diferentes, se pierde anchura y largo a comparacion de los demás tipos de unión|
   |<img src="elementounion.png" width="200" height="100" />|En esta estructura unimos vigas a unos elementos de unión huecos asi las vigas actuando tambien como columnas | solo necesitamos 2 diseños | Su estructura es débil asi que se puede caer o doblar |
 
-##3 diseño final
+### Diseño final
+
+El diseño que acabamos utilizando para la maqueta del invernadero es la de una **losa continua** con laque los pilares estaban insertados, manteniendose en pie gracias a la unión de vigas entre ellas.
+
+ <p aling="centre">
+ 
+<img src="Diseñofinal.png" width="700" height="600" />
+
+</p>
+
+## 3.PROGRAMA Y 4.MONTAJE
+### 3.1 Programa bluetooth
+Uno de los requisitos que nos aplica el programa _Telecogames_ es la implementacion de una conexión entre 2 placas de Arduino (_medio de comunicación_). En nuestro proyecto ibamos usar una conexión via WiFi pero acabamos usando una conexión **Bluetooth**, ya que la via WiFi tratamos de conectarla a Andared pero estaba tapada, impidiendonos establecer el medio de comunicación de ambas placas.
+ |**programa**|**descripción**|
+|---|---|
+|<img src="PROGRAMABLUETOOTH.png" width="700" height="600" />||
+
++ _**conf. bluetooth**_
+
+ 
++ _**ciberseguridad**_
+Otro requisito de Telecogames es establecer un tipo de ciberseguridad para impedir de alguna manera la entrada de terceros al programa. Nosotros usamos una muy basica con la direccion MAC:
+
+ |**¿Qué es la dirección MAC?**|**Foto de dirección MAC**|
+|---|---|
+| [![](https://img.youtube.com/vi/0v-lV3tC528/0.jpg)](https://www.youtube.com/watch?v=0v-lV3tC528)  |<img src="DireccionMAC.png" width="700" height="600" />|
+
+### 3.2 Programa maestro
+
+|**programa**|**descripción**|
+|---|---|
+|<img src="PROGRAMAmaestro.png" width="700" height="600" />||
+
+### 3.3 Programa esclavo
+El programa esclavo es el encargado de recibir las señales del maestro y encender los LEDs 
+
+|**programa**|**descripción**|
+|---|---|
+|<img src="PROGRAMAesclavo.png" width="700" height="600" />||
+
+### 4.1 Montaje del invernadero
+<img src="PROGRAMABLUETOOTH.png" width="700" height="600" />
+
+
+
+
 
 
 
