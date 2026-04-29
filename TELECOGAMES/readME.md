@@ -211,7 +211,7 @@ El programa esclavo es el encargado de recibir las señales del maestro y encend
 |<img src="PROGRAMAesclavo.png" width="700" height="600" />||
 
 ### 4.1 Montaje del invernadero
-<img src="PROGRAMABLUETOOTH.png" width="700" height="600" />
+<img src="montajeTINKERCAD.png" width="700" height="600" />
 
 
 
