@@ -211,8 +211,23 @@ El programa esclavo es el encargado de recibir las señales del maestro y encend
 |<img src="PROGRAMAesclavo.png" width="700" height="600" />||
 
 ### 4.1 Montaje del invernadero
+
+Una vez programado ambos arduinos y la configuración con el bluetooth toca montar el programa tal cual con los mines que hemos usado.
+
+ <p aling="centre">
+  
 <img src="montajeTINKERCAD.png" width="700" height="600" />
 
+</p>
+
+En la foto hemos implementado ambas placas de arduino (esclavo y maestro) donde se señala que parte perenece a quien, de tal manera que nuestros pines quearial tal que así:
+
+|**MAESTRO**||**ESCLAVO**||
+|---|---|---|---|
+|+ **PIN A0**| Sensor Humedad |+ **PIN ~5**| LED Temperatura|
+|+ **PIN A1**| Sensor Nivel de Agua |+ **PIN ~6**|LED Agua|
+|+ **PIN A2**| Sensor Temperatura| | |
+|+ **PIN ~3**| Relé (bomba de agua)| | |
 
 
 
