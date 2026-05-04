@@ -201,7 +201,7 @@ Otro requisito de Telecogames es establecer un tipo de ciberseguridad para imped
 
 |**programa**|**descripción**|
 |---|---|
-|<img src="PROGRAMAmaestro.png" width="700" height="600" />||
+|<img src="VARIABLESmaestro.png" width="700" height="600" />|PARA EMPEZAR: vamos a establecer todas las variables que necesitamos de los sensores de humedad, temperatura y agua|
 
 ### 3.3 Programa esclavo
 El programa esclavo es el encargado de recibir las señales del maestro y encender los LEDs 
