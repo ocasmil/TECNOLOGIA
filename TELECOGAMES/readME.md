@@ -202,19 +202,28 @@ Otro requisito de Telecogames es establecer un tipo de ciberseguridad para imped
 |**programa**|**descripción**|
 |---|---|
 |<img src="VARIABLESmaestro.png" width="700" height="600" />|PARA EMPEZAR: vamos a establecer todas las variables que necesitamos de los sensores de humedad, temperatura y agua|
-|<img src="SETUPmaestro.png" width="700" height="600" />|Iniciamos como en todos los programas con el _Serialbegin_ y señalando los dispositivos de salida/entrada con la diferencia de añadir la linea **miBT** que es la velocidad de transimion de los mensajes entre ambos dispositivos bluetooth| 
-|<img src="LOOPmaestro.png" width="700" height="600" />|Hacemos una mapeo de todos los sensores cambiando sus valores de 1024 a solo 100 excepto el de temperatura que son 50,|
+|<img src="SETUPmaestro.png" width="700" height="600" />|Iniciamos como en todos los programas con el _Serialbegin_ y señalando los dispositivos de salida/entrada con la diferencia de añadir la linea **miBT** que es la velocidad de transimion de los mensajes entre ambos dispositivos bluetooth.| 
+|<img src="LOOPmaestro.png" width="700" height="600" />|Hacemos una mapeo de todos los sensores cambiando sus valores de 1024 a solo de 0 a 100 (excepto el de temperatura que son de 0 a 50),acto segido escribirá estos valores en el monitor serie; el cual los acabaremos midiendo y según que tipo de valores obtengamos mandaremos una señal numérica por el dispositivo bluetooth.|
 
-Cuando el programa a relacculado los valore 
 ### 3.3 Programa esclavo
 El programa esclavo es el encargado de recibir las señales del maestro y encender los LEDs 
 
 |**programa**|**descripción**|
 |---|---|
-|<img src="VARIABLESesclavo.png" width="700" height="600" />||
-|<img src="SETUPesclavo.png" width="700" height="600" />|PARA EMPEZAR: vamos a establecer todas las variables que necesitamos de los sensores de humedad, temperatura y agua|
-|<img src="LOOPesclavo.png" width="700" height="600" />|PARA EMPEZAR: vamos a establecer todas las variables que necesitamos de los sensores de humedad, temperatura y agua|
+|<img src="VARIABLESesclavo.png" width="700" height="600" />|Estableceremos las variables de ambos leds; siendo pin5=LedAgua y pin6=LedTemperatura (en el montaje en tinkercad estos valores estan invertidos)|
+|<img src="SETUPesclavo.png" width="700" height="600" />|igual que en el maestro iniciamos como en todos los programas con el _Serialbegin_ y señalando los dispositivos de salida/entrada con la diferencia de añadir la linea **miBT** que es la velocidad de transimion de los mensajes entre ambos dispositivos bluetooth.|
+|<img src="LOOPesclavo.png" width="700" height="600" />|Aqui el programa escribira en el monitor serie la señal numérica que a recibido del dispositivo bluetooth y lo clasificará segun que acción debe tomar|
 
++ **ESQUEMA DE SEÑAL NUMERICA DEL DISPOSITIVO BLUETOOTH**
+
+|VALOR SEÑAL |NUMERICA QUE MANDA |RESPUESTA DEL ESCLAVO|
+|---|---|---|
+|VALOR SEÑAL |**1** |RESPUESTA DEL ESCLAVO|
+|VALOR SEÑAL |**2** |RESPUESTA DEL ESCLAVO|
+|VALOR SEÑAL |**3** |RESPUESTA DEL ESCLAVO|
+|VALOR SEÑAL |**4** |RESPUESTA DEL ESCLAVO|
+|VALOR SEÑAL |**5** |RESPUESTA DEL ESCLAVO|
+ 
 ### 4.1 Montaje del invernadero
 
 Una vez programado ambos arduinos y la configuración con el bluetooth toca montar el programa tal cual con los mines que hemos usado.
