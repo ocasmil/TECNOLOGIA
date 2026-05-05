@@ -202,13 +202,18 @@ Otro requisito de Telecogames es establecer un tipo de ciberseguridad para imped
 |**programa**|**descripción**|
 |---|---|
 |<img src="VARIABLESmaestro.png" width="700" height="600" />|PARA EMPEZAR: vamos a establecer todas las variables que necesitamos de los sensores de humedad, temperatura y agua|
+|<img src="SETUPmaestro.png" width="700" height="600" />|Iniciamos como en todos los programas con el _Serialbegin_ y señalando los dispositivos de salida/entrada con la diferencia de añadir la linea **miBT** que es la velocidad de transimion de los mensajes entre ambos dispositivos bluetooth| 
+|<img src="LOOPmaestro.png" width="700" height="600" />|Hacemos una mapeo de todos los sensores cambiando sus valores de 1024 a solo 100 excepto el de temperatura que son 50,|
 
+Cuando el programa a relacculado los valore 
 ### 3.3 Programa esclavo
 El programa esclavo es el encargado de recibir las señales del maestro y encender los LEDs 
 
 |**programa**|**descripción**|
 |---|---|
-|<img src="PROGRAMAesclavo.png" width="700" height="600" />||
+|<img src="VARIABLESesclavo.png" width="700" height="600" />||
+|<img src="SETUPesclavo.png" width="700" height="600" />|PARA EMPEZAR: vamos a establecer todas las variables que necesitamos de los sensores de humedad, temperatura y agua|
+|<img src="LOOPesclavo.png" width="700" height="600" />|PARA EMPEZAR: vamos a establecer todas las variables que necesitamos de los sensores de humedad, temperatura y agua|
 
 ### 4.1 Montaje del invernadero
 
