@@ -1,5 +1,5 @@
 # TELECOGAMES
-## Prueba de sensores
+## 1.Prueba de sensores
 
 ---
 ### LDR
@@ -137,7 +137,7 @@ El sensor de temperatura mide valores según la temperatura que perciba de su en
 
 ### Sensor PIR
 
-## DISEÑO DEL INVERNADERO (MAQUETA)
+## 2.DISEÑO DEL INVERNADERO (MAQUETA)
 ### PROPUESTAS
  Pasamos a montar la maqueta de la estructura que va a contener todos los componentes, para ello pasamos con nuestra "lluvia de ideas" donde podemos dividir las ideas en **tipo de unión** y **tipo de base**.
 
@@ -230,8 +230,12 @@ En la foto hemos implementado ambas placas de arduino (esclavo y maestro) donde 
 |+ **PIN ~3**| Relé (bomba de agua)| | |
 
 
+## 5.VIDEO FUNCIONAMIENTO
 
 
+ |**VIDEO**|
+|---|
+| [![](https://img.youtube.com/vi/rl1b3eS5mnE/0.jpg)](https://www.youtube.com/watch?v=rl1b3eS5mnE)  |
 
 
 
