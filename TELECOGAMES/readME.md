@@ -86,7 +86,7 @@ El sensor de presión actua dando valores según la humedad que percibaaltacto d
 |---|---|
 |<img src="variables.png" width="200" height="300" />| Antes de empezar con el circuito establecemos unas variables que usaremos más adelante:**_sensorPin=A2**_ ---> entrada de el sensor de presión   **_valorSensor=0_** --> variable numérica que usaremos para representar el componente analógico|
 |<img src="cinicial.png" width="300" height="300" />| Iniciamos el circuito indicando la velocidad de transmisión (**Serial.begin(_1-9600_)**) en 9600 baudios (bits por segundos). |
-|<img src="bucle.png" width="300" height="300" />| Crearemos un bucle donde tomaremos la variable "_valorSensor_" el valor analógico resultante de la variable "presión", que es el sensor (**valorSensor = analogRead(presión)**). Seguimos con una linea de codigo que hará que "valorSensor" se exprese de 0 a 100 y el valor que de será en la variable "presión" el cual imprimiremos ambos el la pantalla (**presion=map...Serial.print(humedad)**) para que no este imprimiendo valores a lo loco añadiremos un retraso de 0,5 segundo para que mande el valor a la pantalla (**delay(500)**).|
+|<img src="bucle.png" width="300" height="300" />| Crearemos un bucle donde tomaremos la variable "_sensor_" el valor analógico resultante de la variable "humedad", que es el sensor (**sensor = analogRead(humedad)**). Seguimos con una linea de codigo que hará que "sensor" se exprese de 0 a 100 y el valor que de será en la variable "humedad" el cual imprimiremos ambos el la pantalla (**humedad=map...Serial.print(sensor)**) para que no este imprimiendo valores a lo loco añadiremos un retraso de 0,5 segundo para que mande el valor a la pantalla (**delay(500)**).|
 
 <p aling="center">
  
@@ -128,14 +128,6 @@ El sensor de temperatura mide valores según la temperatura que perciba de su en
  | [![](https://img.youtube.com/viUPrbg1qrWKQ/0.jpg)](https://www.youtube.com/shorts/UPrbg1qrWKQ) |
 
 </p>
-
-
-
-### sensor
-
-
-
-### Sensor PIR
 
 ## 2.DISEÑO DEL INVERNADERO (MAQUETA)
 ### PROPUESTAS
@@ -212,7 +204,7 @@ El programa esclavo es el encargado de recibir las señales del maestro y encend
 |---|---|
 |<img src="VARIABLESesclavo.png" width="700" height="600" />|Estableceremos las variables de ambos leds; siendo pin5=LedAgua y pin6=LedTemperatura (en el montaje en _Tinkercad_ estos valores estan invertidos)|
 |<img src="SETUPesclavo.png" width="700" height="600" />|igual que en el maestro iniciamos como en todos los programas con el _Serialbegin_ y señalando los dispositivos de salida/entrada con la diferencia de añadir la linea **miBT** que es la velocidad de transimion de los mensajes entre ambos dispositivos bluetooth.|
-|<img src="LOOPesclavo.png" width="700" height="600" />|Aqui el programa escribira en el monitor serie la señal numérica que a recibido del dispositivo bluetooth y lo clasificará segun que acción debe tomar|
+|<img src="LOOPesclavo.png" width="700" height="600" />|Aqui el programa escribira en el monitor serie la señal numérica que a recibido del dispositivo bluetooth y lo clasificará segun que acción debe tomar. Abajo puedes ver una tabla la cual indica las medidas tomadas del maestro, el mensaje numérico que se manda en el bluetooth según esos valores y la acción que toma el esclavo según ese mensaje numérico.|
 
 + **ESQUEMA DE SEÑAL NUMERICA DEL DISPOSITIVO BLUETOOTH**
 
